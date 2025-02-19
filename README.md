@@ -26,6 +26,7 @@ A special thanks to Majestic. His modpacks JewelHeim, RelicHeim, and RTMN are by
 - Building pieces like Corewood, Glass, more vanilla pieces, etc. are added
 - A couple mods that attempt to help with network performance if you are playing with friends
 - Lord of the Rings music overhaul
+- Test
 
 ## World Modifiers
 - No map
