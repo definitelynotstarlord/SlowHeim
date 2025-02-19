@@ -1,0 +1,139 @@
+Fox_TW:
+  health: 0.97
+  health per star: 0.4
+  damage: 1.2
+  damage per star: 0.25
+  tamed:
+   infusion:
+    Other: 0
+   effect:
+    Quick: 0
+    Curious: 0
+    Splitting: 0
+Razorback_TW:
+  size: 0.02
+  tamed:
+   infusion:
+    Other: 0
+   effect:
+    Quick: 0
+    Curious: 0
+    Splitting: 0
+BlackBear_TW:
+  size: 0.02
+  tamed:
+   infusion:
+    Other: 0
+   effect:
+    Quick: 0
+    Curious: 0
+    Splitting: 0
+GrizzlyBear_TW:
+  size: 0
+  tamed:
+   infusion:
+    Other: 0
+   effect:
+    Quick: 0
+    Curious: 0
+    Splitting: 0
+#Ocean
+Shark_TW:
+  movement speed: 0.8
+  effect:
+   splitting: 0
+   quick: 0
+##Adjusted Elite Mobs 
+ObsidianGolem_TW:
+  effect power:
+    Regenerating: 0.5
+##Prowler Adjustments and Tamed
+Prowler_TW:
+ size: 0.04
+ effect power:
+  Regenerating: 0.5
+ tamed:
+  infusion:
+   Other: 0
+  effect:
+   Quick: 0
+   Curious: 0
+   Splitting: 0
+#DeepNorth
+StormWolf_TW:
+  damage per star: 0.2
+  health per star: 0.5
+JotunnWolf_TW:
+  damage per star: 0.2
+  health per star: 0.5
+ArcticBear_TW:
+  damage per star: 0.2
+  health per star: 0.5
+  size: 0
+ArcticWolf_TW:
+  damage per star: 0.2
+  health per star: 0.5
+  size: 0
+ArcticMammoth_TW:
+  damage per star: 0.2
+  health per star: 0.5
+  size: 0
+ArcticSerpent_TW:
+  damage per star: 0.2
+  health per star: 0.5
+ArcticGolem_TW:
+  damage per star: 0.2
+  health per star: 0.5
+StormCultist_TW:
+  damage per star: 0.2
+  health per star: 0.5
+StormFenring_TW:
+  damage per star: 0.2
+  health per star: 0.5
+StormWolf_TW:
+  damage per star: 0.2
+  health per star: 0.5
+  
+JotunnWolf_TW:
+  damage per star: 0.2
+  health per star: 0.5
+JotunnBladefist_TW:
+  damage per star: 0.2
+  health per star: 0.5
+JotunnShaman_TW:
+  damage per star: 0.2
+  health per star: 0.5
+JotunnBrute_TW:
+  damage per star: 0.2
+  health per star: 0.5
+JotunnJuggernaut_TW:
+  damage per star: 0.2
+  health per star: 0.5
+  
+SurtrImp_TW:
+  damage per star: 0.2
+  health per star: 0.5
+SurtrBrute_TW:
+  damage per star: 0.2
+  health per star: 0.5
+SurtrBones_TW:
+  damage per star: 0.2
+  health per star: 0.5
+SurtrHound_TW:
+  damage per star: 0.2
+  health per star: 0.5
+SurtrDrake_TW:
+  damage per star: 0.2
+  health per star: 0.5
+SurtrLegionnaire_TW:
+  damage per star: 0.2
+  health per star: 0.5
+SurtrSeer_TW:
+  damage per star: 0.2
+  health per star: 0.5
+SurtrWarbringer_TW:
+  damage per star: 0.2
+  health per star: 0.5
+DaggerFang_TW:
+  damage per star: 0.2
+  health per star: 0.5

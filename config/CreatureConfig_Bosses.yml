@@ -1,0 +1,247 @@
+##Mini bosses
+Fenring_Cultist_Hildir:
+  stars: [0, 15, 50, 25, 10]
+  damage: [1.15, 1.2, 1.25, 1.3, 1.35, 1.4]
+  infusion:
+   poison: 0
+   chaos: 0
+   spirit: 0
+   other: 20
+  effect:
+   quick: 0
+   splitting: 0
+   armored: 0
+   curious: 0
+   other: 20
+  effect power:
+    Regenerating: 0.5
+Fenring_Cultist_Hildir_nochest:
+  stars: [0, 15, 50, 25, 10]
+  damage: [1.15, 1.2, 1.25, 1.3, 1.35, 1.4]
+  infusion:
+   poison: 0
+   chaos: 0
+   spirit: 0
+   other: 20
+  effect:
+   quick: 0
+   splitting: 0
+   armored: 0
+   curious: 0
+   other: 20
+  effect power:
+    Regenerating: 0.5
+Skeleton_Hildir:
+  stars: [0, 15, 50, 25, 10]
+  damage: [1.15, 1.2, 1.25, 1.3, 1.35, 1.4]
+  infusion:
+   poison: 0
+   chaos: 0
+   spirit: 0
+   other: 20
+  effect:
+   quick: 0
+   splitting: 0
+   armored: 0
+   curious: 0
+   other: 20
+  effect power:
+    Regenerating: 0.5
+Skeleton_Hildir_nochest:
+  stars: [0, 15, 50, 25, 10]
+  damage: [1.15, 1.2, 1.25, 1.3, 1.35, 1.4]
+  infusion:
+   poison: 0
+   chaos: 0
+   spirit: 0
+   other: 20
+  effect:
+   quick: 0
+   splitting: 0
+   armored: 0
+   curious: 0
+   other: 20
+  effect power:
+    Regenerating: 0.5
+GoblinBruteBros:
+  stars: [0, 15, 50, 25, 10]
+  damage: [1.15, 1.2, 1.25, 1.3, 1.35, 1.4]
+  infusion:
+   poison: 0
+   chaos: 0
+   spirit: 0
+   other: 20
+  effect:
+   quick: 0
+   splitting: 0
+   armored: 0
+   curious: 0
+   other: 20
+  effect power:
+    Regenerating: 0.5
+GoblinBruteBros_nochest:
+  stars: [0, 15, 50, 25, 10]
+  damage: [1.15, 1.2, 1.25, 1.3, 1.35, 1.4]
+  infusion:
+   poison: 0
+   chaos: 0
+   spirit: 0
+   other: 20
+  effect:
+   quick: 0
+   splitting: 0
+   armored: 0
+   curious: 0
+   other: 20
+  effect power:
+    Regenerating: 0.5
+Charred_Melee_Dyrnwyn:
+  stars: [0, 15, 50, 25, 10]
+  damage: [1.15, 1.2, 1.25, 1.3, 1.35, 1.4]
+  infusion:
+   poison: 0
+   chaos: 0
+   spirit: 0
+   other: 20
+  effect:
+   quick: 0
+   splitting: 0
+   armored: 0
+   curious: 0
+   other: 20
+  effect power:
+    Regenerating: 0.5
+#Boss Adjustments
+Eikthyr:
+  health per star: 0.24
+  damage: 2
+  damage taken:
+    Fire: 0.25
+  affix:
+    Enraged: 35
+    Elementalist: 40
+    Summoner: 10
+    Mending: 10
+    other: 0
+gd_king:
+  health per star: 0.2
+  damage: [1.2, 1.3, 1.4, 1.6, 1.8, 2]
+  damage taken:
+    Fire: 0.25
+    Pierce: 1.25
+  affix:
+    Enraged: 40
+    Summoner: 40
+    Mending: 10
+    other: 0
+Bonemass:
+  health per star: 0.1
+  damage: [1.2, 1.3, 1.4, 1.5, 1.6, 1.7]
+  damage taken:
+    Frost: 0.75
+    Blunt: 0.75
+  affix:
+    Enraged: 35
+    Elementalist: 35
+    Summoner: 15
+    Mending: 10
+    other: 0
+Dragon:
+  health: 1.0666
+  health per star: 0.06666
+  damage: [1.2, 1.25, 1.3, 1.35, 1.4, 1.5]
+  affix:
+    Enraged: 35
+    Elementalist: 35
+    Summoner: 15
+    Mending: 10
+    other: 0
+GoblinKing:
+  health: 1.1
+  health per star: 0.05
+  damage: [1.2, 1.25, 1.3, 1.35, 1.4, 1.5]
+  damage taken:
+    Frost: 0.5
+    Lightning: 0.5
+  affix:
+    Enraged: 5
+    Elementalist: 45
+    Summoner: 35
+    Mending: 10
+    other: 0
+SeekerQueen:
+  health: 1.04
+  health per star: 0.04
+  damage: [1.2, 1.25, 1.3, 1.35, 1.4, 1.5]
+  damage taken:
+    Frost: 0.75
+    Lightning: 0.75
+    Fire: 0.75
+  affix:
+    Enraged: 40
+    Elementalist: 10
+    Summoner: 35
+    Mending: 10
+    other: 0
+Fader:
+  health: 1.04
+  health per star: 0.03
+  damage: [1.2, 1.25, 1.3, 1.35, 1.4, 1.5]
+  damage taken:
+    ElementalMagic: 0.5
+  affix:
+    Enraged: 35
+    Elementalist: 35
+    Summoner: 15
+    Mending: 10
+    other: 0
+##  Monstrum Bosses
+BossAsmodeus_TW:
+  damage taken:
+    Fire: 0.25
+  affix:
+    Enraged: 40
+    Elementalist: 35
+    Mending: 20
+    other: 0
+BossSvalt_TW:
+  health per star: 0.16
+  damage: [1.2, 1.25, 1.3, 1.35, 1.4, 1.5]
+  affix:
+    Enraged: 40
+    Elementalist: 35
+    Mending: 20
+    other: 0
+BossVrykolathas_TW:
+  health per star: 0.08
+  damage: [1.2, 1.25, 1.3, 1.35, 1.4, 1.5]
+  affix:
+    Enraged: 40
+    Elementalist: 35
+    Mending: 20
+    other: 0
+## DeepNorth Monstrum Bosses
+BossSythrak_TW:
+  health: 1
+  health per star: 0.02
+  damage: [1, 1.1, 1.12, 1.14, 1.16, 1.2]
+  affix:
+    other: 0
+BossStormHerald_TW:
+  health: 1
+  health per star: 0.02
+  damage: [1, 1.1, 1.12, 1.14, 1.16, 1.2]
+  affix:
+    other: 0
+BossGorr_TW:
+  health: 1
+  health per star: 0.02
+  damage: [1, 1.1, 1.12, 1.14, 1.16, 1.2]
+  affix:
+    other: 0
+BossBrutalis_TW:
+  health: 1
+  health per star: 0.02
+  damage: [1, 1.1, 1.12, 1.14, 1.16, 1.2]
+  affix:
+    other: 0
