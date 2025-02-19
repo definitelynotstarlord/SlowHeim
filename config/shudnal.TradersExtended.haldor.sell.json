@@ -1,0 +1,92 @@
+[
+  {
+    "prefab": "Fish1",
+    "stack": 1,
+    "price": 15
+  },
+  {
+    "prefab": "Fish2",
+    "stack": 1,
+    "price": 15
+  },
+  {
+    "prefab": "Fish3",
+    "stack": 1,
+    "price": 40
+  },
+  {
+    "prefab": "Fish4_cave",
+    "stack": 1,
+    "price": 150
+  },
+  {
+    "prefab": "Fish5",
+    "stack": 1,
+    "price": 30
+  },
+  {
+    "prefab": "Fish6",
+    "stack": 1,
+    "price": 50
+  },
+  {
+    "prefab": "Fish7",
+    "stack": 1,
+    "price": 60
+  },
+  {
+    "prefab": "Fish8",
+    "stack": 1,
+    "price": 50
+  },
+  {
+    "prefab": "Fish9",
+    "stack": 1,
+    "price": 40
+  },
+  {
+    "prefab": "Fish10",
+    "stack": 1,
+    "price": 70
+  },
+  {
+    "prefab": "Fish11",
+    "stack": 1,
+    "price": 120
+  },
+  {
+    "prefab": "Fish12",
+    "stack": 1,
+    "price": 50
+  },
+  {
+    "prefab": "DeerMeat",
+    "stack": 1,
+    "price": 4
+  },
+  {
+    "prefab": "NeckTail",
+    "stack": 1,
+    "price": 2
+  },
+  {
+    "prefab": "Sausages",
+    "stack": 1,
+    "price": 5
+  },
+  {
+    "prefab": "RottenMeat",
+    "stack": 1,
+    "price": 5
+  },
+  {
+    "prefab": "SerpentMeat",
+    "stack": 1,
+    "price": 50
+  },
+  {
+    "prefab": "Bloodbag",
+    "stack": 1,
+    "price": 5
+  }
+]
