@@ -7,7 +7,7 @@ customIcon:
 clonePrefabName: 
 material: 
 damagedMaterial: 
-craftingStation: $piece_forge
+craftingStation: $piece_workstation
 piecehammerCategory: Misc
 minStationLevel: 1
 amount: 1
@@ -57,7 +57,7 @@ plantData:
 shipData: 
 build:
 - FineWood:20:1:True
-- BoneFragments:15:1:True
-- Bronze:20:1:True
-- LeatherScraps:15:1:True
-- Raspberry:15:1:True
+- BoneFragments:10:1:True
+- Bronze:5:1:True
+- LeatherScraps:10:1:True
+- Raspberry:10:1:True
