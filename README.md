@@ -1,14 +1,12 @@
 ### SlowHeim, Take It Easy!
 Welcome to SlowHeim! A modpack focused on a vanilla+ experience that offers a much slower pace and a bit more of a challenge than normal. 
 
-I made this modpack for my young children and I for a family server playthrough. It took a bit of effort and testing, so I thought maybe others 
-may enjoy it since there are almost no other playable modpacks on Thunderstore. If you're wanting to play this modpack, please read everything 
-below as I documented all the changes I made to the game. 
+I made this modpack for my young children and I for a family server playthrough. I uploaded this to Thunderstore to make it easier to manage updates for us. Before playing this modpack, please keep in mind it was made solely for my family's vision of what Valheim should be, with mods.
 
-Take note that this modpack does not add anything fancy. You won't find quests, custom locations, or anything like that. It is just a more "adult" take on Valheim. Imagine being a dad and wanting to draw out the experience with your kids while adding more feelings of adventure without removing the charm and experience that makes Valheim what it is. That's what the goal of this modpack was.
+All of my changes are documented below.
 
 ## Special Thanks
-A special thanks to Majestic. His modpacks JewelHeim, RelicHeim, and RTMN are by far the best modpacks Valheim has ever had and have given us hundreds of hours of fun and enjoyment. I learned how to modify various mod files because of these packs, and have reused some of Majestic's configs in this modpack. 
+A special thanks to Majestic. His modpacks JewelHeim, RelicHeim, and RTMN are by far the best modpacks in Valheim and have given us hundreds of hours of fun and enjoyment. I learned how to modify various mod files because of these packs, and have reused some of Majestic's configs in this modpack. 
 
 ## Modpack Overview
 - NoMap playthrough! The map has been moved to the Cartography table and you must plan ahead
@@ -53,7 +51,7 @@ These are the changes I have made to the game. I've added nearly 100 mods and co
   - Spring - "A time of renewal."
     - Health Regeneration +35%
     - Movement speed +10%
-    - Carry weight -150
+    - Carry weight -75
   - Summer - "Cattle die, kinsmen die, you yourself die just the same."
     - Damage +10%
     - Stamina Regeneration +15%
@@ -67,9 +65,9 @@ These are the changes I have made to the game. I've added nearly 100 mods and co
   - Winter - "Hard times teach hard lessons." 
     - Experience gain +25%
     - Movement speed -10%
-    - Carry weight -250
+    - Carry weight -150
     - Health Regeneration -15%
-- Azumatt's CraftyBoxes range changed from 20m -> 10m to reduce the massive amount of lag this mod creates
+- Craftable compass
 - Mistroots regrowth 10m -> 30m
 - Hunting animals will give you 3x yield at level 100 Hunting, which scales until then
 - Sitting next to a fire will heal you
