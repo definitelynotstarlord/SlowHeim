@@ -6,48 +6,62 @@ I made this modpack for my young children and I for a family server playthrough.
 All of my changes are documented below.
 
 ## Special Thanks
-A special thanks to Majestic. His modpacks JewelHeim, RelicHeim, and RTMN are by far the best modpacks in Valheim and have given us hundreds of hours of fun and enjoyment. I learned how to modify various mod files because of these packs, and have reused some of Majestic's configs in this modpack. 
+A special thanks to Majestic. His modpacks JewelHeim, RelicHeim, and RTMN are by far the best modpacks in Valheim and have given us hundreds of hours of fun and enjoyment. I learned how to modify various mod files because of these packs, and have reused a lot of his configs in this modpack. 
+
+## Who might enjoy this modpack?
+- You enjoy vanilla Valheim but want more of a challenge without straying to far from the original game and concept
+- You find Valheim's world to be too small and would like to slow down progression by simply making some things more difficult, especially exploration
+- Not afraid of a grind
+- Want a lot of options for armor and weapons
 
 ## Modpack Overview
 - NoMap playthrough! The map has been moved to the Cartography table and you must plan ahead
-  - This means when you create your world, you **must** select "No Map"!
-- Leveling system
-- Portals have been disabled, instead you must use waystones
+- Portals have been disabled but are replaced with Waypoints
+- Access to magic much earlier through Therzie's mods
+- Southsil armor adds alternatives to Therzie's armory additions - find a style you like
 - There are buffs and debuffs for each season and you will eventually die during storms unless you find shelter
-- Rebalanced EpicLoot with a focus on crafting and economy 
-- All creatures can now be 0-3 stars, with bosses being 3-6 stars. Oceans are bit more dangerous with faster serpents
-- You will find many more weapons and armors to use. They have been rebalanced so that every biome now offers many great choices!
-- Four seasons with buffs and debuffs for each
-  - Crops will not grow in winter and you will be cutting it close to harvest before winter
-- Coins are much more important in this playthrough
-  - You can earn money by fishing, selling meat, and select trophies
-- Building pieces like Corewood, Glass, more vanilla pieces, etc. are added
+- You will not be able to repair any items until you get to bronze
+- All creatures can now be 0-3 stars, with bosses being 2-5 stars. Oceans are bit more dangerous with faster serpents
+- Plants and trees will grow much more slowly
+- Smelting ore will take much longer
+- You will find many more weapons and armors to use
+- A wandering trader will sometimes arrive, and he now buys a few more hunting and fishing related items
+- Building pieces like Corewood, Glass, more vanilla pieces, etc. have been added
 - A couple mods that attempt to help with network performance if you are playing with friends
 - Lord of the Rings music overhaul
-- Test
 
 ## World Modifiers
-- No map
+I would suggest you make the following changes on your world:
 - Player-based raids
 - Everything else default
 
-## Targeted Audience
-This modpack is targeted at the following type of players (which is my kids and I!):
-- Those who enjoy a very, very slow playthrough
-- Building, making multiple sets of armor, enchanting and mixing and matching gear
-- Enjoy Vanilla Valheim but find the gameplay to be too easy
-- Want a "NoMap" and "Limited Portal" playthrough
-- Those who if they wanted to play Dark Souls and Elden Ring playthrough, they'd play Dark Souls and Elden Ring - you don't enjoy spamming barrel rolls and having armor values that mean aboslutely nothing - you simply want to enjoy a slightly more challenging and rewarding Valheim
-
 ## Detailed Changes - A Must Read!
-These are the changes I have made to the game. I've added nearly 100 mods and configured quite a few of them as I see fit. Here you will find those changes and learn more details about this modpack.
+These are the changes I have made to the game. I've added nearly 90 mods and configured quite a few of them as I see fit. Here you will find those changes and learn more details about this modpack.
 
-- If you make any modifications to any config files, set them to "read-only" so that future updates don't remove your changes, or make a copy!
-- Creatures can be 0-3 stars, roughly 50% chance for a star. Bosses can be 3-6 stars, weighted heavily at 3 and 4 stars
-  - All bosses and creatures have a chance to spawn with special affixes and prefixes
-- Days have been doubled to 60 minutes. To preserve the vanilla day/night ratio, this means daytime is increased to 42 minutes and nighttime increased to 18 minutes
-- Seasonal Changes:
-  - The "Valheim" year last 16 hours. Expect a long winter and summer, short fall and spring
+- [Smoothbrain's CLLC](https://thunderstore.io/c/valheim/p/Smoothbrain/CreatureLevelAndLootControl/)
+  - Creatures can be 0-3 stars, roughly 50% chance for a star. Bosses can be 3-6 stars, weighted heavily at 3 and 4 stars
+    - All bosses and creatures have a chance to spawn with special affixes and prefixes
+- [Smoothbrain's Skills](https://thunderstore.io/c/valheim/p/Smoothbrain/)
+ - Farming: Increases yield and regrowth time as you level. You can ignore biome for planting at level 65, can plant more crops at once every 15 levels, and at level 40 you can see growth %
+ - Foraging: Increase yield and regrowth time as you level
+ - Lumberjacking: Increasing damage to trees and yield as you level 
+ - Mining: Starting at level 35 you have a very small chance of an ore exploding in one hit, this chance incrases as you level 
+ - PackHorse: Increases carry weight as you level
+- [Smoothbrain's TimedItemDestruction](https://thunderstore.io/c/valheim/p/Smoothbrain/TimedItemDestruction/)
+  - Items on the ground are removed in one hour with player floors being exempt
+- [Smoothbrain's Backpack](https://thunderstore.io/c/valheim/p/Smoothbrain/Backpacks/)
+  - A backpack can be crafted which reduces the weight of items placed inside by 35% that starts with 3 inventory slots. This backpack can be upgraded in each biome until a maximum of 20 slots are achieved
+- [Smoothbain's PassivePowers](https://thunderstore.io/c/valheim/p/Smoothbrain/PassivePowers/)
+  - The Forsaken Powers are now passive and you may have two at once. Use power one or two by holding `F` and tapping `1` or `2`. The active state lasts 60 seconds and has a 10 minute cooldown
+- [Shudnal's GammaOfNightLights](https://thunderstore.io/c/valheim/p/shudnal/GammaOfNightLights/)
+  - Days have been doubled to 60 minutes. To preserve the vanilla day/night ratio, this means daytime is increased to 42 minutes and nighttime increased to 18 minutes
+- [Shudnal's ExtraSlots](https://thunderstore.io/c/valheim/p/shudnal/ExtraSlots/)
+  - Two additional inventory rows, and slots for armor, food, arrows, and utilities
+- [Shudnal's Waystones](https://thunderstore.io/c/valheim/p/shudnal/Waystones/)
+  - You can craft a Waystone like you would a portal. Activate it, sit in front, click E, and look around to find other Waystones or your home. For more information
+  - You can lower wait time by using neck, deer, troll, and boss trophies on a Waystone
+- [RustyMods' Seasonality](https://thunderstore.io/c/valheim/p/RustyMods/Seasonality/):
+  - The Valheim "year" last 16 hours. Expect a long winter and summer, short fall and spring
   - Spring - "A time of renewal."
     - Health Regeneration +35%
     - Movement speed +10%
@@ -67,72 +81,80 @@ These are the changes I have made to the game. I've added nearly 100 mods and co
     - Movement speed -10%
     - Carry weight -150
     - Health Regeneration -15%
-- Craftable compass
-- Mistroots regrowth 10m -> 30m
-- Hunting animals will give you 3x yield at level 100 Hunting, which scales until then
-- Sitting next to a fire will heal you
-- All tower shields, inluding modded ones, have been significantly buffed and offer a real alternative to the typical bucker + parry combo
-- The CartographyTable now requires a Forge and crafting cost was significantly increased
-  - This was done to discourage you from trying to bring materials with you to always be crafting a Cartography table to help with navigation
-- You can craft a Small Campfire, Sleeping Bag, Small Tent, and Big Tent. The Sleeping Bag and Tents require Campfire Resources. These recipes are changed from the original mod -- you will want to make sure you have plenty of Campfire Resources with you while traveling
-- Odins Training adds the ability to train your skills up, but all "vitamins" have been disabled
-  - I feel like this offers massive potential for abuse, but 5% experience on death is a pretty big deal afterall!
-- Traveling Haldor has a 50% chance to spawn every 5 days, after you have defeated Elder. Once spawned, you can trade with him for 10 minutes before he leaves
-  - Traveling Haldor will have EpicLoot enchanting materials, offer bounties, treasure maps, etc.
-- You will die during storms if you do not seek shelter. You will receive stamina regen and movement speed debuffs before slowly dying
+- [RustyMods' IncineratorControl](https://thunderstore.io/c/valheim/p/RustyMods/IncineratorControl/)
+  - The Incinerator now functions as a recycler returning 50% crafting materials and is buildable with a workbench and requires copper, tin, and a surtling core
+- [Mods by ZenDragon](https://thunderstore.io/c/valheim/p/ZenDragon/)
+  - Craftable compass
+  - Cartography table will explore a full 1000m radius over he course of 10 in-game days
+  - Item stands now acts like chests
+   - Beehives now act as chests
+  - You will not consume as much stamina on paths
+  - You can pick up and replace furniture, without destroying it
+  - Pins can only be added to maps by building map signs which chost 5 bronze nails
+  - Terrain can only be slightly modified to encourage proper base fortification
+- [Mods by Blacks7ar](https://thunderstore.io/c/valheim/p/blacks7ar/)
+  - You will regen health very, very quickly while seated next to a fire
+  - You will get much more resources as your Hunting skill increases, 3x at level 100
+  - Added in corewood and glass build pieces, collectors (guck, tar, resin), new hip location for one handed weapons, and the Herbalist skill
+  - New Herbalist skill with potions and tonics and new plants
+- [Mods by Azumatt](https://thunderstore.io/c/valheim/p/Azumatt/)
+  - Mistroots regrowth 10m -> 30m
+  - AAA Crafting
+  - You can only repair your items by crafting a RepairStation -- make sure to bring one with you!
+- [FactoriaTeam's MakeTowerShieldsGreatAgain](https://thunderstore.io/c/valheim/p/FactoriaTeam/Make_Tower_Shields_Great_Again/)
+  - All vanilla shields and then I added in all of Therzie's tower shields
+  - Tower shields are legitimate now and will far exceed a buckler's worth if you're truly just trying to block
+- [OdinPlus' Mods](https://thunderstore.io/c/valheim/p/OdinPlus/)
+  - Campsite (Raelaziel)
+    - You can craft a Small Campfire, Sleeping Bag, Small Tent, and Big Tent. The Sleeping Bag and Tents require Campfire Resources. These recipes are changed from the original mod -- you will want to make sure you have plenty of Campfire Resources with you while traveling
+  - TrainingPlace (Raelaziel, KG, and Gravebear)
+    - Adds the ability to train your skills up, but all "vitamins" have been disabled
+    - I feel like this offers massive potential for abuse, but 5% experience on death is a pretty big deal afterall!
+  - Traveling Haldor (Gravebear)
+    - Traveling Haldor has a 50% chance to spawn every 5 days, after you have defeated Eikthyr. Once spawned, you can trade with him for 10 minutes before he leaves
+  - OdinHorse (Raelaziel)
+    - Horses are a very rare spawn in the Meadows on clear days
+- [ProbablyKory's StormExposure](https://thunderstore.io/c/valheim/p/probablykory/StormExposure/)
+  - You will die during storms if you do not seek shelter. You will receive stamina regen and movement speed debuffs before slowly dying
+- [TastyChickenLegs' NoSmokeStayLit](https://thunderstore.io/c/valheim/p/TastyChickenLegs/NoSmokeStayLit/)
+  - Torches and braziers will stay lit indefinitely, turning on/off for day/night cycles, but all other fire sources require fuel and DO make smoke
+- [Mods by VentureValheim](https://thunderstore.io/c/valheim/p/VentureValheim/Sea_Of_Noodles/)
+  - All locations are reset every 20 in-game days unless you have built something inside
+  - More Serpents
+  - MiningCaves
+- [Kam1goroshi's BetterFishing](https://thunderstore.io/c/valheim/p/Kam1goroshi/BetterFishing/)
+  - Fishing progresses much faster and starting at level 30 you will boost your chance of better quality fish
+- [Advize's PlantEverything](https://thunderstore.io/c/valheim/p/Advize/PlantEverything/)
+  - Crops, mushrooms, and trees now grow much more slowly. The longest item growth will be 8 hours with the shortest being 3 hours. Biome enforcement is on until your farming gets to level 65
+- [ThisModpack]
   - You can now build a Shield Generator with tin, copper, and surtling cores to help protect you from storms
-- The Incinerator now functions as a recycler returning 50% crafting materials and is buildable with a workbench and requires copper, tin, and a surtling core
-- Two additional inventory rows, and slots for armor, food, arrows, and utilities
-- A backpack can be crafted which reduces the weight of items placed inside by 35% that starts with 3 inventory slots. This backpack can be upgraded in each biome until a maximum of 20 slots are achieved
-- Smoothbrain's Skills (2% loss on death):
- - Farming: Increases yield and regrowth time as you level. You can ignore biome for planting at level 65, can plant more crops at once every 15 levels, and at level 40 you can see growth %
- - Foraging: Increase yield and regrowth time as you level
- - Lumberjacking: Increasing damage to trees and yield as you level 
- - Mining: Starting at level 35 you have a very small chance of an ore exploding in one hit, this chance incrases as you level 
- - PackHorse: Increases carry weight as you level
- - Exploration: Exploration radius increases as the skill levels, at level 50 you have a 25% to multiply treasure
-- Items on the ground are removed in one hour with player floors being exempt
-- The Forsaken Powers are now passive and you may have two at once. Use power one or two by holding `F` and tapping `1` or `2`. The active state lasts 60 seconds and has a 10 minute cooldown
-- Torches and braziers will stay lit indefinitely, turning on/off for day/night cycles, but all other fire sources require fuel and DO make smoke
-- All locations are reset every 20 in-game days unless you have built something inside
-- You will move 35% faster on all paths
-- You can no longer drastically terraform unless ore or treasure are nearby -- there is a limit to depth and height and they are not very low or very high
-- Beehives produce honey more slowly but hold 8 honey now
-- Fishing progresses much faster and starting at level 30 you will boost your chance of better quality fish
+  - Serpents are much faster and will be able to strike your boat with a more vicious bite
   - Haldor now buys fish, neck meat, deer meat, serpent meat, and more! Hunting and fishing could be lucrative
-- Crops, mushrooms, and trees now grow much more slowly. The longest item growth will be 8 hours with the shortest being 3 hours. Biome enforcement is on until your farming gets to level 65
-- You can craft a Waystone like you would a portal. Activate it, sit in front, click E, and look around to find other Waystones or your home. For more information, see [Shudnal's Waystones](https://thunderstore.io/c/valheim/p/shudnal/Waystones/)
-  - You can lower wait time by using neck, deer, troll, and boss trophies on a Waystone
-- Horses are a very rare spawn in the Meadows on clear days
-- Serpents are much faster and will be able to strike your boat with a more vicious bite
 
 ## Troubleshooting
-- You can modify these mods in-game by pressing `F1` or by opening the config files themselves. I personally think Notepad and Notepad++ are horrible applications for this sort of thing, but they work, I guess. I would recommend [vscode](https://code.visualstudio.com/download) if you're wanting to have a good time
+- You can modify these mods in-game by pressing `F1` or by opening the config files themselves locally. I would recommend [vscode](https://code.visualstudio.com/download) if you're wanting to edit config files locally, but Notepad++ and even Notepad do work
 - This modpack was tested primarily on a 12th Gen i7-12700F, 4070ti, 48GB memory, and a Kingston SNV2S1000G with max graphics setting, and it runs perfectly fine. My kids played on older i7/i5s with an RTX 2060 and 16/32GB of memory and slightly lower graphics settings, and not a single issue either 
- - Memory consumption issues can be a thing
-   - Disable CustomAudio and Lord of the Rings Music to lower memory usage 7-8GB
+- Memory consumption issues can be a thing
+  - Disable CustomAudio and Lord of the Rings Music to lower memory usage 7-8GB. You must disable both
 - Poor performance
   - Though terraforming is restricted, excessive flattening can cause lag
   - Use `F2` to monitor your instances and stay as low as you can. Anything over 10,000 is definitely going to be a bad time
-  -  See the `Section 2: Optimize Boot Configuration for Better FPS` section at the [RobThePCGuy's Performance Mod Guide](https://github.com/RobThePCGuy/Performance-Mod-Guide-For-Valheim/blob/main/README.md). We see considerable boost in performance when using these options
-  - Azumatt's "CraftyBoxes" mod is typical the poorest performing mod that you will ever use. The more chests you have filled with the loot, the worse time you're going to have when trying to craft. I attempted to mitigate this by setting the distance you pull from when crafting to 15m, but if you just have a lot of stuff stored in one area is going to be a real pain
-  - Think about disabling some of the cosmetic mods like CorewoodPieces, GlassPieces, and More Vanilla Prefabs
-  - Did you add any mods? Ensure they are not outdated or creating a conflict
-- If you do not like the UI I put together, disable the "MinimalUI" mod. Alternatively, you can press "F7" at any time and use right-click to cycle through the various screens in which you can drag-and-drop how you'd like. Take special note that the local config file `Azumatt.MinimalUI.cfg` is read-only, so you'll need to change this property on the file
-- When installing on a server, Therzie's mods are notorious for not working and produce errors when joining your server. Make sure you're only uploading via FTP. I would recommend using WinSCP. Shut your server down, delete Therzie's mods, and re-upload them. Therzie's Discord is also full of very, very helpful people so if you have issues with his mods when connecting to your server, go ask them for help
+  - See the `Section 2: Optimize Boot Configuration for Better FPS` section at the [RobThePCGuy's Performance Mod Guide](https://github.com/RobThePCGuy/Performance-Mod-Guide-For-Valheim/blob/main/README.md). We see considerable boost in performance when using these options
+- If you do not like the UI I put together, disable the "MinimalUI" mod. Alternatively, you can press "F7" at any time and use right-click to cycle through the various screens in which you can drag-and-drop how you'd like
+- When installing on a server, make sure you're not adding the client-side mods. Use WinSCP to upload the mods via FTP
 
 ## Server Installation
-- Create a new r2modman profile and install the modpack
-- Disable the following mods on this new profile:
+- Disable SmoothSave on clients if you are uploading these mods to a server
+- Copy everything to your server except for these mods:
  - LocalizationCache
  - MinimalUI
+ - CustomAudio
  - Lord of the Rings Music
  - BepInEx Configuration Manager
- - CustomAudio
-- Once the above mods have been disabled, shut your server down and copy your entire BepInEx folder to the server
+- Once the above mods have been removed, shut your server down and copy your entire BepInEx folder to the server
 - Watch [Stoned Prophet's Complete Starter's Guide](https://www.youtube.com/watch?v=JEqIvO_uJMw) as an excellent resource for setting up your server!
  
 ## Contact
 If you enjoy this modpack and want to provide any feedback or have questions, feel free to reach out!
 - `config_this` on Discord
-- The only "Valheim" Discord I'm in is CookieMilk's
+- The only "Valheim" Discords I'm in is CookieMilk's or Zen's
