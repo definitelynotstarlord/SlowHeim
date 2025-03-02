@@ -6,10 +6,17 @@ I made this modpack for my young children and I for a family server playthrough.
 
 All of my changes are documented below.
 
-## Special Thanks
-A special thanks to Majestic. His modpacks JewelHeim, RelicHeim, and RTMN are by far the best modpacks in Valheim and have given us hundreds of hours of fun and enjoyment. I learned how to modify various mod files because of these packs, and have reused a lot of his configs in this modpack. 
+## Performance Warning!
+This modpack has 80+ mods. My goal was to add mods that I thought were necessary and that performed optimally as well. Still, it is a lot of mods and it does take a hit on performance.
+- Game startup time for me is ~2m48s. Your screen may be white and even warning you that Valheim is not responding -- just click to "wait" for the program to respond
+- 18-19GB memory utilization with under 5000 total instances
+- 50% utilization on a 4070ti
+- See the troubleshooting section below for additional performance enchancing tips
 
-## Who might enjoy this modpack?
+## Special Thanks
+A special thanks to Majestic. His modpacks JewelHeim, RelicHeim, and RTMN are by far the best modpacks in Valheim and have given us hundreds of hours of fun and enjoyment. I learned how to modify various mod files because of his packs, and have reused a lot of his configs in this modpack as well. 
+
+## Who Might Enjoy This Modpack?
 - You enjoy vanilla Valheim but want more of a challenge without straying to far from the original game and concept
 - You find Valheim's world to be too small and would like to slow down progression by simply making some things more difficult, especially exploration
 - Not afraid of a grind
@@ -17,19 +24,21 @@ A special thanks to Majestic. His modpacks JewelHeim, RelicHeim, and RTMN are by
 
 ## Modpack Overview
 - NoMap playthrough! The map has been moved to the Cartography table and you must plan ahead
-- Portals have been disabled but are replaced with Waypoints
-- Access to magic much earlier through Therzie's mods
-- Southsil armor adds alternatives to Therzie's armory additions - find a style you like
-- There are buffs and debuffs for each season and you will eventually die during storms unless you find shelter
+- New raids
+- Portals have been disabled but are replaced with craftable Waystones which act very similar, but add a cooldown based on your travel distance
+- Access to magic much earlier through Therzie's Wizardry
+- Southsil armor adds alternatives to Therzie's armory additions - find a style you like!
+- ValheimEnchantingSystem to further upgrade your weapons and armor
+- There are buffs and debuffs for each season
+- Storms will negatively impact you, eventually leading to death - bring camping supplies!
 - You will not be able to repair any items until you get to bronze
 - All creatures can now be 0-3 stars, with bosses being 2-5 stars. Oceans are bit more dangerous with faster serpents
-- Plants and trees will grow much more slowly
+- Plants and trees will grow much, much more slowly and are not harvestable during winter
 - Smelting ore will take much longer
-- You will find many more weapons and armors to use
 - A wandering trader will sometimes arrive, and he now buys a few more hunting and fishing related items
 - Building pieces like Corewood, Glass, more vanilla pieces, etc. have been added
 - A couple mods that attempt to help with network performance if you are playing with friends
-- Lord of the Rings music overhaul
+- Lord of the Rings music overhaul (disable the LotR music mod AND the CustomAudio mod if you do not like this)
 
 ## World Modifiers
 I would suggest you make the following changes on your world:
@@ -39,15 +48,19 @@ I would suggest you make the following changes on your world:
 ## Detailed Changes - A Must Read!
 These are the changes I have made to the game. I've added nearly 90 mods and configured quite a few of them as I see fit. Here you will find those changes and learn more details about this modpack.
 
+- [Mods by Therzie](https://thunderstore.io/c/valheim/p/Therzie/)
+  - Therzie adds in so much content and has rounded out game completion
+  - If you are unsure of how the Wizadry or Armor work, you need to read his Wiki, which can be found [here](https://docs.google.com/spreadsheets/d/1kxXS34lWO-MWGktSqcOaRE_4tiLZHjN8sV1hxv2GsEU/edit?pli=1&gid=0#gid=0)
+  - Furthermore, I would suggest joining his Discord if you are stumped or have questions about the new magic and armory additions
 - [Smoothbrain's CLLC](https://thunderstore.io/c/valheim/p/Smoothbrain/CreatureLevelAndLootControl/)
   - Creatures can be 0-3 stars, roughly 50% chance for a star. Bosses can be 3-6 stars, weighted heavily at 3 and 4 stars
     - All bosses and creatures have a chance to spawn with special affixes and prefixes
 - [Smoothbrain's Skills](https://thunderstore.io/c/valheim/p/Smoothbrain/)
- - Farming: Increases yield and regrowth time as you level. You can ignore biome for planting at level 65, can plant more crops at once every 15 levels, and at level 40 you can see growth %
- - Foraging: Increase yield and regrowth time as you level
- - Lumberjacking: Increasing damage to trees and yield as you level 
- - Mining: Starting at level 35 you have a very small chance of an ore exploding in one hit, this chance incrases as you level 
- - PackHorse: Increases carry weight as you level
+  - Farming: Increases yield and regrowth time as you level. You can ignore biome for planting at level 65, can plant more crops at once every 15 levels, and at level 40 you can see growth %
+  - Foraging: Increase yield and regrowth time as you level
+  - Lumberjacking: Increasing damage to trees and yield as you level 
+  - Mining: Starting at level 35 you have a very small chance of an ore exploding in one hit, this chance incrases as you level 
+  - PackHorse: Increases carry weight as you level
 - [Smoothbrain's TimedItemDestruction](https://thunderstore.io/c/valheim/p/Smoothbrain/TimedItemDestruction/)
   - Items on the ground are removed in one hour with player floors being exempt
 - [Smoothbrain's Backpack](https://thunderstore.io/c/valheim/p/Smoothbrain/Backpacks/)
@@ -59,7 +72,7 @@ These are the changes I have made to the game. I've added nearly 90 mods and con
 - [Shudnal's ExtraSlots](https://thunderstore.io/c/valheim/p/shudnal/ExtraSlots/)
   - Two additional inventory rows, and slots for armor, food, arrows, and utilities
 - [Shudnal's Waystones](https://thunderstore.io/c/valheim/p/shudnal/Waystones/)
-  - You can craft a Waystone like you would a portal. Activate it, sit in front, click E, and look around to find other Waystones or your home. For more information
+  - You can craft a Waystone like you would a portal. Activate it, sit in front, click E, and look around to find other Waystones or your home
   - You can lower wait time by using neck, deer, troll, and boss trophies on a Waystone
 - [RustyMods' Seasonality](https://thunderstore.io/c/valheim/p/RustyMods/Seasonality/):
   - The Valheim "year" last 16 hours. Expect a long winter and summer, short fall and spring
@@ -86,12 +99,18 @@ These are the changes I have made to the game. I've added nearly 90 mods and con
   - The Incinerator now functions as a recycler returning 50% crafting materials and is buildable with a workbench and requires copper, tin, and a surtling core
 - [Mods by ZenDragon](https://thunderstore.io/c/valheim/p/ZenDragon/)
   - Craftable compass
-  - Cartography table will explore a full 1000m radius over he course of 10 in-game days
+    - You will be able to make a compass once you find a resource common in the Black Forest...
+  - Assign an item to a sign to see nearby resources
+    - Simply "use" your item on a sign. Then, hit "E" (Find) when looking at your sign and it will highlight the chest where the resources are
+  - Cartography table will explore a full 1000m radius over the course of 10 in-game days
+    - Even though you are playing "NoMap", having multiple cartography tables throughout the world will slowly build a full map
+    - Take note breaking the table destroys map data. If you would like to move your table, you must do so by taking advantage of the ZenRedecorate mod - instructions at the bottom of this section
+  - You cannot place pins on the map like normal. You must craft a
   - Item stands now acts like chests
-   - Beehives now act as chests
+  - Beehives now act as chests
   - You will not consume as much stamina on paths
   - You can pick up and replace furniture, without destroying it
-  - Pins can only be added to maps by building map signs which chost 5 bronze nails
+    - Hold Left Control and Left-Click your furniture piece. Move it and Left-Click to place it
   - Terrain can only be slightly modified to encourage proper base fortification
 - [Mods by Blacks7ar](https://thunderstore.io/c/valheim/p/blacks7ar/)
   - You will regen health very, very quickly while seated next to a fire
@@ -115,6 +134,8 @@ These are the changes I have made to the game. I've added nearly 90 mods and con
     - Traveling Haldor has a 50% chance to spawn every 5 days, after you have defeated Eikthyr. Once spawned, you can trade with him for 10 minutes before he leaves
   - OdinHorse (Raelaziel)
     - Horses are a very rare spawn in the Meadows on clear days
+  - Basements
+    - Since we cannot modify terrain anymore, this mod will allow you build a pretty expensive basement to help store your goods
 - [ProbablyKory's StormExposure](https://thunderstore.io/c/valheim/p/probablykory/StormExposure/)
   - You will die during storms if you do not seek shelter. You will receive stamina regen and movement speed debuffs before slowly dying
 - [TastyChickenLegs' NoSmokeStayLit](https://thunderstore.io/c/valheim/p/TastyChickenLegs/NoSmokeStayLit/)
@@ -158,4 +179,4 @@ These are the changes I have made to the game. I've added nearly 90 mods and con
 ## Contact
 If you enjoy this modpack and want to provide any feedback or have questions, feel free to reach out!
 - `config_this` on Discord
-- The only "Valheim" Discords I'm in is CookieMilk's or Zen's
+- The only "Valheim" Discords I'm in is CookieMilk's or ZenDragon's
