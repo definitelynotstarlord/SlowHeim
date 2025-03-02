@@ -34,7 +34,7 @@ A special thanks to Majestic. His modpacks JewelHeim, RelicHeim, and RTMN are by
 - You will not be able to repair any items until you get to bronze
 - All creatures can now be 0-3 stars, with bosses being 2-5 stars. Oceans are bit more dangerous with faster serpents
 - Plants and trees will grow much, much more slowly and are not harvestable during winter
-- Smelting ore will take much longer
+- Smelting ore and all conversions now take 10x longer
 - A wandering trader will sometimes arrive, and he now buys a few more hunting and fishing related items
 - Building pieces like Corewood, Glass, more vanilla pieces, etc. have been added
 - A couple mods that attempt to help with network performance if you are playing with friends
