@@ -35,7 +35,7 @@ A special thanks to Majestic. His modpacks JewelHeim, RelicHeim, and RTMN are by
 - All creatures can now be 0-3 stars, with bosses being 2-5 stars. Oceans are bit more dangerous with faster serpents
 - Plants and trees will grow much, much more slowly and are not harvestable during winter
 - Smelting ore and all conversions now take 5x longer
-- A wandering trader will sometimes arrive, and he now buys a few more hunting and fishing related items
+- A wandering trader will sometimes arrive, and he now buys a few more hunting and fishing related items and sells VES upgrade scrolls
 - Building pieces like Corewood, Glass, more vanilla pieces, etc. have been added
 - A couple mods that attempt to help with network performance if you are playing with friends
 - Lord of the Rings music overhaul (disable the LotR music mod AND the CustomAudio mod if you do not like this)
@@ -48,6 +48,10 @@ I would suggest you make the following changes on your world:
 ## Detailed Changes - A Must Read!
 These are the changes I have made to the game. I've added nearly 90 mods and configured quite a few of them as I see fit. Here you will find those changes and learn more details about this modpack.
 
+- [KG's ValheimEnchantmentSystem](https://thunderstore.io/c/valheim/p/KGvalheim/Valheim_Enchantment_System/)
+  - Disabled the VES crafting system
+  - Item ugprade scrolls can now only be found or purchased from Haldor
+  - Since crafting is no longer possible, chance to upgrade has been slightly increased
 - [Mods by Therzie](https://thunderstore.io/c/valheim/p/Therzie/)
   - Therzie adds in so much content and has rounded out game completion
   - If you are unsure of how the Wizadry or Armor work, you need to read his Wiki, which can be found [here](https://docs.google.com/spreadsheets/d/1kxXS34lWO-MWGktSqcOaRE_4tiLZHjN8sV1hxv2GsEU/edit?pli=1&gid=0#gid=0)
@@ -116,6 +120,7 @@ These are the changes I have made to the game. I've added nearly 90 mods and con
   - You will regen health very, very quickly while seated next to a fire
   - You will get much more resources as your Hunting skill increases, 3x at level 100
   - Added in corewood and glass build pieces, collectors (guck, tar, resin), new hip location for one handed weapons, and the Herbalist skill
+    - Crafting costs lowered for the collectors and they hold 50 items instead of 10
   - New Herbalist skill with potions and tonics and new plants
 - [Mods by Azumatt](https://thunderstore.io/c/valheim/p/Azumatt/)
   - Mistroots regrowth 10m -> 30m
@@ -152,6 +157,7 @@ These are the changes I have made to the game. I've added nearly 90 mods and con
   - You can now build a Shield Generator with tin, copper, and surtling cores to help protect you from storms
   - Serpents are much faster and will be able to strike your boat with a more vicious bite
   - Haldor now buys fish, neck meat, deer meat, serpent meat, and more! Hunting and fishing could be lucrative
+  - Stonecutter no longer requires iron and can be crafted with resources from the Black Forest
 
 ## Troubleshooting
 - You can modify these mods in-game by pressing `F1` or by opening the config files themselves locally. I would recommend [vscode](https://code.visualstudio.com/download) if you're wanting to edit config files locally, but Notepad++ and even Notepad do work
