@@ -1,6 +1,6 @@
 ![Valheim Modpack Landscape](https://github.com/definitelynotstarlord/SlowHeim/blob/main/config/SlowHeimBase-Complete_806x460.png)
 ### SlowHeim, Take It Easy!
-Welcome to SlowHeim! A modpack focused on a vanilla+ experience that offers a much slower pace and a bit more of a challenge than normal. 
+Welcome to SlowHeim! A modpack focused on a vanilla+ experience that offers a much slower pace and a bit more of a challenge than normal, especially when it comes to surviving the environment. 
 
 I made this modpack for my young children and I for a family server playthrough. I uploaded this to Thunderstore to make it easier to manage updates for us. Before playing this modpack, please keep in mind it was made solely for my family's vision of what Valheim should be, with mods.
 
@@ -8,7 +8,7 @@ All of my changes are documented below.
 
 ## Performance Warning!
 This modpack has 80+ mods. My goal was to add mods that I thought were necessary and that performed optimally as well. Still, it is a lot of mods and it does take a hit on performance.
-- Game startup time for me is ~2m48s. Your screen may be white and even warning you that Valheim is not responding -- just click to "wait" for the program to respond
+- Game startup time for me is ~2m48s. Your screen may be white and even warnyou that Valheim is not responding -- just click to "wait" for the program to respond, it will load!
 - 18-19GB memory utilization with under 5000 total instances
 - 50% utilization on a 4070ti
 - See the troubleshooting section below for additional performance enchancing tips
@@ -46,7 +46,7 @@ I would suggest you make the following changes on your world:
 - Everything else default
 
 ## Detailed Changes - A Must Read!
-These are the changes I have made to the game. I've added nearly 90 mods and configured quite a few of them as I see fit. Here you will find those changes and learn more details about this modpack.
+These are the changes I have made to the game. I've added nearly 80+ mods and configured quite a few of them as I see fit. Here you will find those changes and learn more details about this modpack.
 
 - [KG's ValheimEnchantmentSystem](https://thunderstore.io/c/valheim/p/KGvalheim/Valheim_Enchantment_System/)
   - Disabled the VES crafting system

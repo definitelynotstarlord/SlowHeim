@@ -1,4 +1,3 @@
-# Ashlands Armor
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_S
     amount: 1
@@ -125,15 +124,15 @@
     prefab: kg_EnchantScroll_Armor_Blessed_D
     amount: 1
   Items:
-- trollhelm
-- trolllegs
-- bronzetrollhelm
-- heavybronzehelm
-- heavybronzechest
-- heavybronzelegs
-- ancienthelm
-- ancientchest
-- ancientlegs
+  - trollhelm
+  - trolllegs
+  - bronzetrollhelm
+  - heavybronzehelm
+  - heavybronzechest
+  - heavybronzelegs
+  - ancienthelm
+  - ancientchest
+  - ancientlegs
 # Meadows Armor
 - enchant_prefab:
     prefab: kg_EnchantScroll_Armor_F
