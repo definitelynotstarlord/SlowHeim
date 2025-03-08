@@ -185,4 +185,4 @@ These are the changes I have made to the game. I've added nearly 80+ mods and co
 ## Contact
 If you enjoy this modpack and want to provide any feedback or have questions, feel free to reach out!
 - `config_this` on Discord
-- The only "Valheim" Discords I'm in is [CookieMilk](https://valheim.cookiemilk.se/index.html), [ZenDragon](https://github.com/ZenDragonX/ZenMods_Valheim/wiki), and [Filthy Casuals](https://thunderstore.io/c/valheim/p/SpkrFrkr/?section=modpacks) 
+- [Filthy Casual Discord](https://discord.gg/yPcZKgtXJv), [CookieMilk](https://valheim.cookiemilk.se/index.html), and [ZenDragon](https://github.com/ZenDragonX/ZenMods_Valheim/wiki),
