@@ -1,4 +1,4 @@
-![Valheim Modpack Landscape](https://github.com/definitelynotstarlord/SlowHeim/blob/main/config/SlowHeimBase-Complete_806x460.png)
+![Valheim Modpack Landscape](https://raw.githubusercontent.com/definitelynotstarlord/SlowHeim/refs/heads/main/config/SlowHeimBase-Complete_806x460.png)
 **Should be compatible and working with the March 4th 0.220.3 update**
 
 ### SlowHeim, Take It Easy!
