@@ -1,4 +1,6 @@
 ![Valheim Modpack Landscape](https://github.com/definitelynotstarlord/SlowHeim/blob/main/config/SlowHeimBase-Complete_806x460.png)
+**Should be compatible and working with the March 4th 0.220.3 update**
+
 ### SlowHeim, Take It Easy!
 Welcome to SlowHeim! A modpack focused on a vanilla+ experience that offers a much slower pace and a bit more of a challenge than normal, especially when it comes to surviving the environment. 
 
