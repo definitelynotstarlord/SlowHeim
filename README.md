@@ -1,6 +1,6 @@
 ![Valheim Modpack Landscape](https://raw.githubusercontent.com/definitelynotstarlord/SlowHeim/refs/heads/main/config/SlowHeimBase-Complete_806x460.png)
-**Should be compatible and working with the March 4th 0.220.3 update**
 
+**Should be compatible and working with the March 4th 0.220.3 update**
 ### SlowHeim, Take It Easy!
 Welcome to SlowHeim! A modpack focused on a vanilla+ experience that offers a much slower pace and a bit more of a challenge than normal, especially when it comes to surviving the environment. 
 
@@ -50,6 +50,8 @@ I would suggest you make the following changes on your world:
 ## Detailed Changes - A Must Read!
 These are the changes I have made to the game. I've added nearly 80+ mods and configured quite a few of them as I see fit. Here you will find those changes and learn more details about this modpack.
 
+- [virtuaCode's TrashItems](https://thunderstore.io/c/valheim/p/virtuaCode/TrashItems/)
+  - Unfortunately the trash bin icon is stuck behind Azumatt's currency mod... looking to replace one or the other, but in the meantime just hit `DEL` when holding an item to delete it
 - [KG's ValheimEnchantmentSystem](https://thunderstore.io/c/valheim/p/KGvalheim/Valheim_Enchantment_System/)
   - Disabled the VES crafting system
   - Item ugprade scrolls can now only be found or purchased from Haldor
@@ -62,7 +64,8 @@ These are the changes I have made to the game. I've added nearly 80+ mods and co
   - Creatures can be 0-3 stars, roughly 50% chance for a star. Bosses can be 3-6 stars, weighted heavily at 3 and 4 stars
     - All bosses and creatures have a chance to spawn with special affixes and prefixes
 - [Smoothbrain's Skills](https://thunderstore.io/c/valheim/p/Smoothbrain/)
-  - Farming: Increases yield and regrowth time as you level. You can ignore biome for planting at level 65, can plant more crops at once every 15 levels, and at level 40 you can see growth %
+  - ~~Farming: Increases yield and regrowth time as you level. You can ignore biome for planting at level 65, can plant more crops at once every 15 levels, and at level 40 you can see growth %~~
+    - Looking for an alternative
   - Foraging: Increase yield and regrowth time as you level
   - Lumberjacking: Increasing damage to trees and yield as you level 
   - Mining: Starting at level 35 you have a very small chance of an ore exploding in one hit, this chance incrases as you level 
