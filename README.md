@@ -1,7 +1,7 @@
 ![Valheim Modpack Landscape](https://raw.githubusercontent.com/definitelynotstarlord/SlowHeim/refs/heads/main/config/SlowHeimBase-Complete_806x460.png)
 
 **Should be compatible and working with the April 1st 0.220.5 update**
-Do NOT update ANY mods!
+Do NOT update ANY mods except for the main modpack!
 
 ### SlowHeim, Take It Easy!
 Welcome to SlowHeim! A modpack focused on a vanilla+ experience that offers a much slower pace and a lot more of a challenge than normal, especially when it comes to surviving, exploring, and the environment. 
@@ -29,7 +29,9 @@ All of my changes are documented below.
 
 ## Performance Warning!
 This modpack has 80+ mods. My goal was to add mods that I thought were necessary and that performed optimally as well. Still, it is a lot of mods and it does take a hit on performance.
-- Game startup time for me is ~3m. Your screen may be white and even warn you that Valheim is not responding -- just click to "wait" for the program to respond, it will load!
+- Game startup time for me is ~2m. Your screen may be white and even warn you that Valheim is not responding -- just click to "wait" for the program to respond, it will load!
+- Remove/disable CustomAudio, Lord of the Rings Music to reduce load times
+- Remove/disable RenderLimits for another boost to FPS
 - Increased CPU utilization, 30%+ on a 12th gen i7-12700F
 - 18-20GB memory utilization with under 5000 total instances
 - 50% utilization on a 4070ti
@@ -140,6 +142,7 @@ These are the changes I have made to the game. I've added 80+ mods and configure
 - This modpack was tested primarily on a 12th Gen i7-12700F, 4070ti, 48GB memory, and a Kingston SNV2S1000G with max graphics setting, and it runs perfectly fine. My kids played on older i7/i5s with an RTX 2060 and 16/32GB of memory and slightly lower graphics settings, and not a single issue either 
 - Memory consumption issues can be a thing
   - Disable CustomAudio and Lord of the Rings Music to lower memory usage 7-8GB. You must disable both
+- Remove/disable RenderLimits for a small boost to FPS
 - Poor performance
   - Though terraforming is restricted, excessive flattening can cause lag
   - Use `F2` to monitor your instances and stay as low as you can. Anything over 10,000 is definitely going to be a bad time
