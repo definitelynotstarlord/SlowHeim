@@ -1,33 +1,12 @@
 {
-	"TrophyNeck": 60
+	"TrophyTroll": 1200
 },
 {
-	"TrophyDeer": 120
+	"TrophySerpent": 4200
 },
 {
-	"TrophyTroll": 240
+	"TrophyAbomination": 4200
 },
 {
-	"TrophySerpent": 360
-},
-{
-	"TrophyEikthyr": 500
-},
-{
-	"TrophyTheElder": 700
-},
-{
-	"TrophyBonemass": 900
-},
-{
-	"TrophyDragonQueen": 1100
-},
-{
-	"TrophyGoblinKing": 1300
-},
-{
-	"TrophySeekerQueen": 1500
-},
-{
-	"TrophyFader": 1600
+	"TrophySGolem": 7200
 }
