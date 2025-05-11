@@ -45,8 +45,6 @@ I would suggest you make the following changes on your world:
 ## Detailed Changes - A Must Read!
 These are the changes I have made to the game. I've added 80+ mods and configured quite a few of them as I see fit. Here you will find those changes and learn more details about this modpack.
 
-- [virtuaCode's TrashItems](https://thunderstore.io/c/valheim/p/virtuaCode/TrashItems/)
-  - Unfortunately the trash bin icon is stuck behind Azumatt's currency mod... looking to replace one or the other, but in the meantime just hit `DEL` when holding an item to delete it
 - [KG's ValheimEnchantmentSystem](https://thunderstore.io/c/valheim/p/KGvalheim/Valheim_Enchantment_System/)
   - Disabled the VES crafting system
   - Item ugprade scrolls can now only be found or purchased from Haldor
@@ -90,7 +88,7 @@ These are the changes I have made to the game. I've added 80+ mods and configure
   - Cartography table will explore a full 1000m radius over the course of 10 in-game days
     - Even though you are playing "NoMap", having multiple cartography tables throughout the world will slowly build a full map
     - Take note breaking the table destroys map data. If you would like to move your table, you must do so by taking advantage of the ZenRedecorate mod - instructions at the bottom of this section
-  - You cannot place pins on the map like normal. You must craft a
+  - You cannot place pins on the map like normal. You must craft a Map Pin and attach it to a sign
   - Item stands now acts like chests
   - Beehives now act as chests
   - You will not consume as much stamina on paths, so make paths, lots of paths
@@ -100,8 +98,8 @@ These are the changes I have made to the game. I've added 80+ mods and configure
   - Terrain can only be slightly modified to encourage proper base fortification
 - [Mods by Blacks7ar](https://thunderstore.io/c/valheim/p/blacks7ar/)
   - You will regen health very, very quickly while seated next to a fire
-  - You will get much more resources as your Hunting skill increases, 3x at level 100
-  - Added in corewood and glass build pieces, collectors (guck, tar, resin), new hip location for one handed weapons, and the Herbalist skill
+  - You will get much more resources as your Hunting skill increases, 2x at level 100
+  - Added in corewood, collectors (guck, tar, resin), new hip location for one handed weapons, and the Herbalist skill
     - Crafting costs lowered for the collectors and they hold 50 items instead of 10
   - New Herbalist skill with potions and tonics and new plants
 - [Mods by Azumatt](https://thunderstore.io/c/valheim/p/Azumatt/)
@@ -153,13 +151,13 @@ These are the changes I have made to the game. I've added 80+ mods and configure
 ## Server Installation
 - Disable SmoothSave on clients if you are uploading these mods to a server as SmoothSave needs to only be server-side
 - Copy everything to your server except for these mods:
- - StartupAccelerator
- - ClearSkies
- - LocalizationCache
- - MinimalUI
- - CustomAudio
- - Lord of the Rings Music
- - BepInEx Configuration Manager
+  - StartupAccelerator
+  - ClearSkies
+  - LocalizationCache
+  - MinimalUI
+  - CustomAudio
+  - Lord of the Rings Music
+  - BepInEx Configuration Manager
 - Once the above mods have been removed, shut your server down and copy your entire BepInEx folder to the server
 - Watch [Stoned Prophet's Complete Starter's Guide](https://www.youtube.com/watch?v=JEqIvO_uJMw) as an excellent resource for setting up your server!
  
