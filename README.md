@@ -63,11 +63,13 @@ These are the changes I have made to the game. I've added 80+ mods and configure
   - Mining: Starting at level 35 you have a very small chance of an ore exploding in one hit, this chance incrases as you level 
   - PackHorse: Increases carry weight as you level
 - [Smoothbrain's TimedItemDestruction](https://thunderstore.io/c/valheim/p/Smoothbrain/TimedItemDestruction/)
-  - Items on the ground are removed in one hour with player floors being exempt
+  - Items on the ground are removed in one hour, excluding player bases
 - [Smoothbrain's Backpack](https://thunderstore.io/c/valheim/p/Smoothbrain/Backpacks/)
   - A backpack can be crafted which reduces the weight of items placed inside by 35% that starts with 3 inventory slots. This backpack can be upgraded in each biome until a maximum of 20 slots are achieved
 - [Smoothbain's PassivePowers](https://thunderstore.io/c/valheim/p/Smoothbrain/PassivePowers/)
   - The Forsaken Powers are now passive and you may have two at once. Use power one or two by holding `F` and tapping `1` or `2`. The active state lasts 60 seconds and has a 10 minute cooldown
+- [Smoothbrain's Resurrection](https://thunderstore.io/c/valheim/p/Smoothbrain/Resurrection/)
+  - Default settings - one SurtlingCore to resurrect your pal
 - [Shudnal's ExtraSlots](https://thunderstore.io/c/valheim/p/shudnal/ExtraSlots/)
   - Two additional inventory rows, and slots for armor, food, arrows, and utilities
 - [Shudnal's Waystones](https://thunderstore.io/c/valheim/p/shudnal/Waystones/)

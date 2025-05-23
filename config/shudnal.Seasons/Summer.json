@@ -7,7 +7,7 @@
   "beehiveProductionMultiplier": 2.0,
   "foodDrainMultiplier": 0.75,
   "staminaDrainMultiplier": 0.8,
-  "fireplaceDrainMultiplier": 2.0,
+  "fireplaceDrainMultiplier": 5.0,
   "sapCollectingSpeedMultiplier": 1.25,
   "rainProtection": false,
   "woodFromTreesMultiplier": 0.75,
