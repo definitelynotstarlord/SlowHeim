@@ -78,11 +78,9 @@ These are the changes I have made to the game. I've added 80+ mods and configure
 - [Shudnal's Seasons](https://thunderstore.io/c/valheim/p/shudnal/Seasons/):
   - The Valheim "year" is 40 in-game days
   - You will freeze to death during winterstorms and during winter evenings, even inside. You will need a fire (torch works)
-  - Wood burns faster in the fall and winter
+  - Wood burns fastest in the fall and winter but faster in spring and summer as well
   - Day length is doubled, nights in the winter are longer than the days
   - Winter bloom is brutal -- if you don't like it, disable bloom
-- [RustyMods' IncineratorControl](https://thunderstore.io/c/valheim/p/RustyMods/IncineratorControl/)
-  - The Incinerator now functions as a recycler returning 50% crafting materials and is buildable with a workbench and requires copper, tin, and a surtling core
 - [Mods by ZenDragon](https://thunderstore.io/c/valheim/p/ZenDragon/)
   - Workbenches no longer prevent creature spawning. This is now accomplished by fire only. Each fire source will have a radius in which it prevents spawning. Be careful, as the more fire sources you have, the higher the odds of triggering a raid
   - Assign an item to a sign to see nearby resources
@@ -98,8 +96,10 @@ These are the changes I have made to the game. I've added 80+ mods and configure
     - Hold Left Control and Left-Click your furniture piece. Move it and Left-Click to place it
     - Especially useful on the Cartography table...
   - Terrain can only be slightly modified to encourage proper base fortification
+  - Obliterator picks one random item on destruction and gives you 50% mats back
+  - Health now regenerates when resting, and seated
+  - On death you will keep two randomly equipped items
 - [Mods by Blacks7ar](https://thunderstore.io/c/valheim/p/blacks7ar/)
-  - You will regen health very, very quickly while seated next to a fire
   - You will get much more resources as your Hunting skill increases, 2x at level 100
   - Added in corewood, collectors (guck, tar, resin), new hip location for one handed weapons, and the Herbalist skill
     - Crafting costs lowered for the collectors and they hold 50 items instead of 10
