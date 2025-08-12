@@ -140,5 +140,83 @@
     "stack": 1,
     "price": 150,
     "requiredGlobalKey": "defeated_goblinking"
+  },
+  {
+    "prefab": "Wood",
+    "stack": 1,
+    "price": 2,
+    "requiredGlobalKey": "defeated_eikthyr"
+  },
+  {
+    "prefab": "Bronze",
+    "stack": 1,
+    "price": 20,
+    "requiredGlobalKey": "defeated_gd_king"
+  },
+  {
+    "prefab": "RoundLog",
+    "stack": 1,
+    "price": 10,
+    "requiredGlobalKey": "defeated_gd_king"
+  },
+  {
+    "prefab": "QueenBee",
+    "stack": 1,
+    "price": 200,
+    "requiredGlobalKey": "defeated_gd_king"
+  },
+  {
+    "prefab": "Stone",
+    "stack": 1,
+    "price": 2,
+    "requiredGlobalKey": "defeated_gd_king"
+  },
+  {
+    "prefab": "Iron",
+    "stack": 1,
+    "price": 30,
+    "requiredGlobalKey": "defeated_bonemass"
+  },
+  {
+    "prefab": "Finewood",
+    "stack": 1,
+    "price": 15,
+    "requiredGlobalKey": "defeated_dragon"
+  },
+  {
+    "prefab": "Silver",
+    "stack": 1,
+    "price": 40,
+    "requiredGlobalKey": "defeated_dragon"
+  },
+  {
+    "prefab": "BlackMetal",
+    "stack": 1,
+    "price": 50,
+    "requiredGlobalKey": "defeated_goblinking"
+  },
+  {
+    "prefab": "BlackMarble",
+    "stack": 1,
+    "price": 10,
+    "requiredGlobalKey": "defeated_SeekerQueen"
+  },
+  {
+    "prefab": "YggdrasilWood",
+    "stack": 1,
+    "price": 20,
+    "requiredGlobalKey": "defeated_SeekerQueen"
+  },
+  {
+    "prefab": "Flametal",
+    "stack": 1,
+    "price": 60,
+    "requiredGlobalKey": "defeated_fader"
+  },
+  {
+    "prefab": "Blackwood",
+    "stack": 1,
+    "price": 20,
+    "requiredGlobalKey": "defeated_fader"
   }
 ]
