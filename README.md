@@ -3,16 +3,16 @@
 ### SlowHeim, Take It Easy! 
 Welcome to SlowHeim! A nomap/noportal modpack!
 
-I made this modpack just for my family and I and have uploaded it to TS to make it easier for me to manage updates for them. I have included all of my configuration files that I would use on my home server. Even my young children find Valheim on the hardest difficulty to be a bit too easy of an experience while taking place on a tiny map. So the real goal of this modpack was to greatly increase the size of the world while enhancing some of Valheim's survival aspects. This playthrough is meant to be very slow. It is still a work in progress and I'll be updating as we find things that need to be changed.
+This modpack is now designed for the SlowHeim server and includes FastLink with server/password - though you do need to be whitelisted to play. Feel free to disable FastLink. If you'd like to play, message me on Discord. I have included all of my configuration files that exist on the server. The goal of this modpack is to greatly increase the size of the world while enhancing some of Valheim's survival aspects. This playthrough is meant to be very slow. It is still a work in progress and I'll be updating as we find things that need to be changed.
 
-If you choose to play with this modpack, please always review my changelog before updating.
+If you choose to play with this modpack, please always review my changelog before updating and always backup your changes as my updates will overwite them!
 
 ## Warning!
 This modpack has 70+ mods. My goal was to add mods that I thought were necessary and that performed optimally as well. Still, it is a lot of mods and they do take a hit on performance.
 - If you are modifying settings for any of the mods included in this modpack, you must backup your config files as my future updates will overwrite your changes. You will need to restore your files/changes post-update.
 - I have used a combination of Expand World Size and Riverheim for worldgen. Terrain is drastically smoother, mountains being not quite as mountainy, and a 4.5x size map.
   - Take note that depending on your PC specs, the first time you start a world it may take 30-60 minutes to generate. I have a pretty nice PC and I average 32 minutes.
-  - Also note that you will notice Valheim's "dimply" terrain a lot more, especially on shores and in the mountains. It is very striking in the mountain. If I can figure out how to fix it I will, but I really do not mind.
+  - Also note that you will notice Valheim's "dimply" terrain a lot more, especially on shores and in the mountains. It is very striking in the mountain and on shores. Disable Tessellation in your graphics menu to correct this.
 - Memory consumption is ~12-14GB, so unless you have over 16GB of memory, you may have a bad time. One of my kids only has 16GB of memory and can play just fine, but your mileage may vary.
 - I think most people will find my changes to be a little too much for them and that they have made the game way too grindy. One may even call this "BoringHeim" or "GrindHeim" as opposed to SlowHeim lol.
 
@@ -24,7 +24,7 @@ This is an overview of the changes I have implemented into the game. At the end 
 - You don't get a map. Or a compass. Or portals. What you do get is a cartography table that will slowly explore a 7,500m radius over 40 in-game days (an entire in-game year). You can craft parchment and record the discoveries from the table to it and whilt it is in your inventory, press "M" to view it. Since you cannot add pins directly to the map, you can instead craft a Pin and attach this to a sign.
 - You can upgrade your weapons and armor with enchanting scrolls you find or purchase from Traveling Haldor.
 - Speaking of Haldor, he now travels and he will buy more things from you. There is a roughly 30% chance every three days that he may show up and hang around for 20 minutes.Hint: fishing and hunting could be lucrative. He will also sell you ingots and wood/stone from the previous biome once you have defeated the boss. At a premium, of course.
-- You will see a bit more 1-3 star creatures and with CLLC, they may be imbued with properties such as frost damage, extra armor, or regenerating health. Best to avoid 3 star regenerating trolls for a while! Bosses now spawn with 2-4 stars with an equal chance of 2, 3, and 4 stars. Bosses will be imbued with special properties as well. 
+- You will see a bit more 1-3 star creatures and with CLLC, they may be imbued with properties such as frost damage, extra armor, or regenerating health. Best to avoid 3 star regenerating trolls for a while! Bosses now spawn with 3-5 stars with an equal chance of 2, 3, and 4 stars. Bosses will be imbued with special properties and do extra damage per star.
 - You will notice almost no QoL changes. For me, the QoL mods just remove some of the only "true" survival challenges in the game such as inventory management and adventure preparedness.
 
 ## Troubleshooting and Tips
@@ -38,19 +38,14 @@ This is an overview of the changes I have implemented into the game. At the end 
   - Use `F2` to monitor your instances and stay as low as you can. Anything over 10,000 is definitely going to be a bad time
   - See the `Section 2: Optimize Boot Configuration for Better FPS` section at the [RobThePCGuy's Performance Mod Guide](https://github.com/RobThePCGuy/Performance-Mod-Guide-For-Valheim/blob/main/README.md). We see considerable boost in performance when using these options.
 - If you're hosting for friends, here are a few mods I'd recommend:
-  - For improved networking, combine [Network by Smoothbrain](https://thunderstore.io/c/valheim/p/Smoothbrain/Network/) and [ReturnToSender by ComfyMods](https://thunderstore.io/c/valheim/p/ComfyMods/ReturnToSender/)
-  - [NetworkTweaks by Searica](https://thunderstore.io/c/valheim/p/Searica/NetworkTweaks/) exists, but I have never used it.
+  - For improved networking (if the included NetworkTweaks doesn't help, be sure to disable it before trying these recommended networking mods), combine [Network by Smoothbrain](https://thunderstore.io/c/valheim/p/Smoothbrain/Network/) and [ReturnToSender by ComfyMods](https://thunderstore.io/c/valheim/p/ComfyMods/ReturnToSender/)
   - [Groups by Smoothbrain](https://thunderstore.io/c/valheim/p/Smoothbrain/Groups/) is cool because you can see your teammates' health. That is all the value it really adds. 
   - [Server devcommands by JereKuusela](https://thunderstore.io/c/valheim/p/JereKuusela/Server_devcommands/) is a great mod to help you administer your server.
-  - [ServerCharacters](https://thunderstore.io/c/valheim/p/Smoothbrain/ServerCharacters/) is a must when playing on hosted server.
-  - [Dedicated Server by Smoothbrain](https://thunderstore.io/c/valheim/p/Smoothbrain/DedicatedServer/) is considered experimental, but may improve latency. I have yet to try it.
 - When installing on a server, make sure you're not adding any "client-side only" mods. Use WinSCP to upload the mods via FTP while the server is shutdown.
 
 ## Server Installation
-- Disable SmoothSave on clients and if you are uploading these mods to a server as SmoothSave needs to only be server-side.
 - Shutdown your server.
 - Copy everything to your server except for these mods:
-  - StartupAccelerator
   - BepInEx Configuration Manager
   - Render Limits
   - CurrencyPocket
@@ -85,7 +80,9 @@ These are the changes I have made to the game. I've added 70+ mods and configure
   - CLLC:
     - Difficulty set to "Medium".
     - Creatures spawn with 0-3 stars.
-    - Bosses spawn with 2-4 stars.
+    - Bosses spawn with 3-5 stars.
+    - CombatOwner: Hopefully improves latency during combat by making the attacking player the "owner" of the combat.
+    - ServerCharacters: Characters are now saved server-side.
   - Backpacks: Allows you to build an expensive backpack that provides 3 slots and 25% reduced weight for items stored inside. This can be leveled up a total of 4 times and provides 3, 6, 8, 12, and 16 additional storage slots.
   - PassivePowers: These are much different than both vanilla and this mod.
     - You will be able to have two passive powers at any given time, that give a small buff similar to the active ability.
@@ -159,12 +156,19 @@ These are the changes I have made to the game. I've added 70+ mods and configure
   - Adds over 30 new armor sets, fairly well-balanced.
 - [Loyal Spears Auto Pickup and Return to Owner by Goldenrevolver](https://thunderstore.io/c/valheim/p/Goldenrevolver/Loyal_Spears_Auto_Pickup_And_Return_To_Owner/)
   - Spears are no longer automatically picked up by your friends, and they return to you 6 seconds after hitting the ground.
+- [Mods by CookieMilk](https://thunderstore.io/c/valheim/p/CookieMilk/)
+  - Leash: Allows you to leash animals to a wood post. This is used only to help control OdinHorse.
+  - YouGotMail: When playing with friends on such a big world, you can now build a mailbox (BlackForest materials) to send items to one another. One day wait time on sent mail.
+- [NetworkTweaks by Searic](https://thunderstore.io/c/valheim/p/Searica/NetworkTweaks/)
+  - Hopefully improved latency in multiplayer.
 - [HoneyPlus by OhhLoz](https://thunderstore.io/c/valheim/p/OhhLoz/HoneyPlus/)
   - New foods and build items based around honey but tar/royal jelly recipes removed.
 - [Mods by Azumatt](https://thunderstore.io/c/valheim/p/Azumatt/)
   - RepairStation: You can only repair your items by crafting a RepairStation, which requires Bronze.
   - BiomeObserver: 60s cooldown, always display when moving into a new biome.
   - CurrencyPocket: Coins are added to a new slot in your inventory that stay with the player.
+  - WardIsLove: Recharged with GreyDwarfEyes, can be built with BlackForest materials.
+  - FastLink: Preconfigured to connect to SlowHeim. If not playing on our server, ignore this or disable it.
 - [FactoriaTeam's MakeTowerShieldsGreatAgain](https://thunderstore.io/c/valheim/p/FactoriaTeam/Make_Tower_Shields_Great_Again/)
   - All vanilla shields, including Therzie's, have been significantly buffed and compete with the buckler.
 - [Chatter by ComfyMods](https://thunderstore.io/c/valheim/p/ComfyMods/Chatter/)
