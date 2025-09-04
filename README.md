@@ -84,7 +84,6 @@ These are the changes I have made to the game. I've added 70+ mods and configure
     - Bosses spawn with 3-5 stars.
     - CombatOwner: Hopefully improves latency during combat by making the attacking player the "owner" of the combat.
     - ServerCharacters: Characters are now saved server-side.
-  - Backpacks: Allows you to build an expensive backpack that provides 3 slots and 25% reduced weight for items stored inside. This can be leveled up a total of 4 times and provides 3, 6, 8, 12, and 16 additional storage slots.
   - PassivePowers: These are much different than both vanilla and this mod.
     - You will be able to have two passive powers at any given time, that give a small buff similar to the active ability.
     - After killing the boss for the third time, you can then use the active ability of the boss power.
