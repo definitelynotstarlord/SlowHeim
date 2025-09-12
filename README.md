@@ -19,7 +19,6 @@ This modpack has 70+ mods. My goal was to add mods that I thought were necessary
 ## Modpack Overview
 This is an overview of the changes I have implemented into the game. At the end of this modpage are all the tweaks I made to the mods that are installed.
 - The map is much larger with much less reliance on sailing. You should be able to complete everything up to the Mistlands without having to sail, unless you're bringing loot back to base on a river or sailing along the shores.
-- You won't be able to repair your weapons until you get to the bronze age and build a Repair Station. And yes, you will need to bring Repair Station materials with you so that you can repair your items while on long journeys.
 - To get boss rewards such as keys, you will need to sacrifice the trophy. Want more stuff? Keep sacrificing trophies.
 - You will find that days and nights are longer and there are seasons that last 10 days each. You will freeze to death regardless of the biome unless you're warm. Campfires will burn through wood a lot faster in the Fall and Winter. Smelting is a bit slower. Your crops are not going to grow in the winter and grow more slowly overall.
 - You don't get a map. Or a compass. Or portals. What you do get is a cartography table that will slowly explore a 7,500m radius over 40 in-game days (an entire in-game year). You can craft parchment and record the discoveries from the table to it and whilt it is in your inventory, press "M" to view it. Since you cannot add pins directly to the map, you can instead craft a Pin and attach this to a sign.
@@ -143,6 +142,8 @@ These are the changes I have made to the game. I've added 70+ mods and configure
     - You keep 3 random equipped items on death.
     - Improved riding skill reduces stamina drain.
     - Other ZenPlayer options reverted back to vanilla in regards to skills and skill loss.
+  - ZenCompass: Surtling core and Meadows materials will build a compass that malfucntions in storms.
+  - ZenUseItem: A great mod so that you no longer need to juggle the hotbar.
 - [Mods by Blacks7ar](https://thunderstore.io/c/valheim/p/blacks7ar/)
   - CookingAdditions: Adds new food. Salt can generate in Meadows, BlackForest, and Plains.
   - Hunting: Get progressive bonuses as you hunt more animals.
@@ -164,10 +165,9 @@ These are the changes I have made to the game. I've added 70+ mods and configure
 - [HoneyPlus by OhhLoz](https://thunderstore.io/c/valheim/p/OhhLoz/HoneyPlus/)
   - New foods and build items based around honey but tar/royal jelly recipes removed.
 - [Mods by Azumatt](https://thunderstore.io/c/valheim/p/Azumatt/)
-  - RepairStation: You can only repair your items by crafting a RepairStation, which requires Bronze.
+  - RepairStation: Allows you to take a mobile RepairStation with you so you do not need Forge upgrades while exploring to repair.
   - BiomeObserver: 60s cooldown, always display when moving into a new biome.
   - CurrencyPocket: Coins are added to a new slot in your inventory that stay with the player.
-  - WardIsLove: Recharged with GreyDwarfEyes, can be built with BlackForest materials.
   - FastLink: Preconfigured to connect to SlowHeim. If not playing on our server, ignore this or disable it.
 - [FactoriaTeam's MakeTowerShieldsGreatAgain](https://thunderstore.io/c/valheim/p/FactoriaTeam/Make_Tower_Shields_Great_Again/)
   - All vanilla shields, including Therzie's, have been significantly buffed and compete with the buckler.
