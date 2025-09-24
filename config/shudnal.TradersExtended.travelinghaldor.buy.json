@@ -1,222 +1,80 @@
 [
   {
-    "prefab": "kg_EnchantScroll_Armor_F",
-    "stack": 1,
-    "price": 3
-  },
-  {
-    "prefab": "kg_EnchantScroll_Armor_Blessed_F",
-    "stack": 1,
-    "price": 6
-  },
-  {
-    "prefab": "kg_EnchantScroll_Weapon_F",
-    "stack": 1,
-    "price": 3,
-    "requiredGlobalKey": ""
-  },
-  {
-    "prefab": "kg_EnchantScroll_Weapon_Blessed_F",
-    "stack": 1,
-    "price": 6,
-    "requiredGlobalKey": ""
-  },
-  {
-    "prefab": "kg_EnchantScroll_Armor_D",
-    "stack": 1,
-    "price": 8,
-    "requiredGlobalKey": "defeated_eikthyr"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Armor_Blessed_D",
-    "stack": 1,
-    "price": 16,
-    "requiredGlobalKey": "defeated_eikthyr"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Weapon_D",
-    "stack": 1,
-    "price": 8,
-    "requiredGlobalKey": "defeated_eikthyr"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Weapon_Blessed_D",
-    "stack": 1,
-    "price": 16,
-    "requiredGlobalKey": "defeated_eikthyr"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Armor_C",
-    "stack": 1,
-    "price": 15,
-    "requiredGlobalKey": "defeated_gd_king"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Armor_Blessed_C",
-    "stack": 1,
-    "price": 30,
-    "requiredGlobalKey": "defeated_gd_king"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Weapon_C",
-    "stack": 1,
-    "price": 15,
-    "requiredGlobalKey": "defeated_gd_king"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Weapon_Blessed_C",
-    "stack": 1,
-    "price": 30,
-    "requiredGlobalKey": "defeated_gd_king"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Armor_B",
-    "stack": 1,
-    "price": 25,
-    "requiredGlobalKey": "defeated_bonemass"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Armor_Blessed_B",
-    "stack": 1,
-    "price": 50,
-    "requiredGlobalKey": "defeated_bonemass"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Weapon_B",
-    "stack": 1,
-    "price": 25,
-    "requiredGlobalKey": "defeated_bonemass"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Weapon_Blessed_B",
-    "stack": 1,
-    "price": 50,
-    "requiredGlobalKey": "defeated_bonemass"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Armor_A",
-    "stack": 1,
-    "price": 40,
-    "requiredGlobalKey": "defeated_dragon"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Armor_Blessed_A",
-    "stack": 1,
-    "price": 80,
-    "requiredGlobalKey": "defeated_dragon"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Weapon_A",
-    "stack": 1,
-    "price": 40,
-    "requiredGlobalKey": "defeated_dragon"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Weapon_Blessed_A",
-    "stack": 1,
-    "price": 80,
-    "requiredGlobalKey": "defeated_dragon"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Armor_S",
-    "stack": 1,
-    "price": 75,
-    "requiredGlobalKey": "defeated_goblinking"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Armor_Blessed_S",
-    "stack": 1,
-    "price": 150,
-    "requiredGlobalKey": "defeated_goblinking"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Weapon_S",
-    "stack": 1,
-    "price": 75,
-    "requiredGlobalKey": "defeated_goblinking"
-  },
-  {
-    "prefab": "kg_EnchantScroll_Weapon_Blessed_S",
-    "stack": 1,
-    "price": 150,
-    "requiredGlobalKey": "defeated_goblinking"
-  },
-  {
     "prefab": "Wood",
     "stack": 1,
     "price": 2,
-    "requiredGlobalKey": "defeated_eikthyr"
+    "requiredPlayerKey": "GP_Eikthyr"
   },
   {
     "prefab": "Bronze",
     "stack": 1,
-    "price": 20,
-    "requiredGlobalKey": "defeated_gd_king"
+    "price": 100,
+    "requiredPlayerKey": "GP_TheElder"
   },
   {
     "prefab": "RoundLog",
     "stack": 1,
     "price": 10,
-    "requiredGlobalKey": "defeated_gd_king"
+    "requiredPlayerKey": "GP_TheElder"
   },
   {
     "prefab": "QueenBee",
     "stack": 1,
-    "price": 200,
-    "requiredGlobalKey": "defeated_gd_king"
+    "price": 500,
+    "requiredPlayerKey": "GP_TheElder"
   },
   {
     "prefab": "Stone",
     "stack": 1,
     "price": 2,
-    "requiredGlobalKey": "defeated_gd_king"
+    "requiredPlayerKey": "GP_TheElder"
   },
   {
     "prefab": "Iron",
     "stack": 1,
-    "price": 30,
-    "requiredGlobalKey": "defeated_bonemass"
+    "price": 150,
+    "requiredPlayerKey": "GP_Bonemass"
   },
   {
     "prefab": "Finewood",
     "stack": 1,
     "price": 15,
-    "requiredGlobalKey": "defeated_dragon"
+    "requiredPlayerKey": "GP_Moder"
   },
   {
     "prefab": "Silver",
     "stack": 1,
-    "price": 40,
-    "requiredGlobalKey": "defeated_dragon"
+    "price": 200,
+    "requiredPlayerKey": "GP_Moder"
   },
   {
     "prefab": "BlackMetal",
     "stack": 1,
-    "price": 50,
-    "requiredGlobalKey": "defeated_goblinking"
+    "price": 200,
+    "requiredPlayerKey": "GP_Yagluth"
   },
   {
     "prefab": "BlackMarble",
     "stack": 1,
     "price": 10,
-    "requiredGlobalKey": "defeated_SeekerQueen"
+    "requiredPlayerKey": "GP_Queen"
   },
   {
     "prefab": "YggdrasilWood",
     "stack": 1,
     "price": 20,
-    "requiredGlobalKey": "defeated_SeekerQueen"
+    "requiredPlayerKey": "GP_Queen"
   },
   {
     "prefab": "Flametal",
     "stack": 1,
-    "price": 60,
-    "requiredGlobalKey": "defeated_fader"
+    "price": 250,
+    "requiredPlayerKey": "GP_Fader"
   },
   {
     "prefab": "Blackwood",
     "stack": 1,
     "price": 20,
-    "requiredGlobalKey": "defeated_fader"
+    "requiredPlayerKey": "GP_Fader"
   }
 ]

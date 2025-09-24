@@ -62,22 +62,22 @@
   {
     "prefab": "DeerMeat",
     "stack": 1,
-    "price": 4
+    "price": 2
   },
   {
     "prefab": "NeckTail",
     "stack": 1,
-    "price": 2
+    "price": 1
   },
   {
     "prefab": "Sausages",
     "stack": 1,
-    "price": 5
+    "price": 6
   },
   {
     "prefab": "RottenMeat",
     "stack": 1,
-    "price": 5
+    "price": 4
   },
   {
     "prefab": "SerpentMeat",
@@ -87,6 +87,6 @@
   {
     "prefab": "Bloodbag",
     "stack": 1,
-    "price": 5
+    "price": 4
   }
 ]

@@ -1,6 +1,8 @@
 ![Valheim Modpack Landscape](https://raw.githubusercontent.com/definitelynotstarlord/SlowHeim/refs/heads/main/config/SlowHeimBase-Complete_806x460.png)
 
 ### SlowHeim, Take It Easy! 
+Please take note that this modpack is for PRE-CTA! It. Will. Not. Work. On. Latest. Update. Don't even try.
+
 Welcome to SlowHeim! A nomap/noportal modpack!
 
 This modpack is now designed for the SlowHeim server and includes FastLink with server/password - though you do need to be whitelisted to play. Feel free to disable FastLink. If you'd like to play, message me on Discord. I have included all of my configuration files that exist on the server. The goal of this modpack is to greatly increase the size of the world while enhancing some of Valheim's survival aspects. This playthrough is meant to be very slow. It is still a work in progress and I'll be updating as we find things that need to be changed.
@@ -21,9 +23,9 @@ This is an overview of the changes I have implemented into the game. At the end 
 - The map is much larger with much less reliance on sailing. You should be able to complete everything up to the Mistlands without having to sail, unless you're bringing loot back to base on a river or sailing along the shores.
 - To get boss rewards such as keys, you will need to sacrifice the trophy. Want more stuff? Keep sacrificing trophies.
 - You will find that days and nights are longer and there are seasons that last 10 days each. You will freeze to death regardless of the biome unless you're warm. Campfires will burn through wood a lot faster in the Fall and Winter. Smelting is a bit slower. Your crops are not going to grow in the winter and grow more slowly overall.
-- You don't get a map. Or a compass. Or portals. What you do get is a cartography table that will slowly explore a 7,500m radius over 40 in-game days (an entire in-game year). You can craft parchment and record the discoveries from the table to it and whilt it is in your inventory, press "M" to view it. Since you cannot add pins directly to the map, you can instead craft a Pin and attach this to a sign.
+- You don't get a map. Or portals. What you do get is a cartography table that will slowly explore a 5,000m radius over 40 in-game days (an entire in-game year). You can craft parchment and record the discoveries from the table to it and whilt it is in your inventory, press "M" to view it. Since you cannot add pins directly to the map, you can instead craft a Pin and attach this to a sign.
 - You can upgrade your weapons and armor with enchanting scrolls you find or purchase from Traveling Haldor.
-- Speaking of Haldor, he now travels and he will buy more things from you. There is a roughly 30% chance every three days that he may show up and hang around for 20 minutes.Hint: fishing and hunting could be lucrative. He will also sell you ingots and wood/stone from the previous biome once you have defeated the boss. At a premium, of course.
+- Speaking of Haldor, he now travels and he will buy more things from you. There is a roughly 33% chance every four days that he may show up and hang around for 20 minutes.Hint: fishing and hunting could be lucrative. He will also sell you ingots and wood/stone from the previous biome once you have defeated the boss. At a premium, of course.
 - You will see a bit more 1-3 star creatures and with CLLC, they may be imbued with properties such as frost damage, extra armor, or regenerating health. Best to avoid 3 star regenerating trolls for a while! Bosses now spawn with 3-5 stars with an equal chance of 2, 3, and 4 stars. Bosses will be imbued with special properties and do extra damage per star.
 - You will notice almost no QoL changes. For me, the QoL mods just remove some of the only "true" survival challenges in the game such as inventory management and adventure preparedness.
 
@@ -68,10 +70,6 @@ These are the changes I have made to the game. I've added 70+ mods and configure
 - [Mods by JereKuusela](https://thunderstore.io/c/valheim/p/JereKuusela/)
   - ExpandWorldSize: 4.5x world size with stretched biomes. This makes the initial loading screen look goofy.
   - RenderLimits: Increased render distance and distant details. This does not impact my PC but it may yours, disable for a boost in performance, or optionally, reconfigure it. Just know future updates will reset your personal settings.
-- [KG's ValheimEnchantmentSystem](https://thunderstore.io/c/valheim/p/KGvalheim/Valheim_Enchantment_System/)
-  - Disabled the VES crafting system.
-  - Item ugprade scrolls can now only be found or purchased from Haldor.
-  - Since crafting is no longer possible, chance to upgrade has been slightly increased.
 - [Mods by Therzie](https://thunderstore.io/c/valheim/p/Therzie/)
   - All mods except for his DeepNorth collection. These add the most startup time, unfortunately, they're big.
   - If you are unsure of how the Wizadry or Armory mods work, you need to read the wiki, which can be found [here](https://docs.google.com/spreadsheets/d/1kxXS34lWO-MWGktSqcOaRE_4tiLZHjN8sV1hxv2GsEU/edit?pli=1&gid=0#gid=0).
@@ -159,7 +157,6 @@ These are the changes I have made to the game. I've added 70+ mods and configure
   - Spears are no longer automatically picked up by your friends, and they return to you 6 seconds after hitting the ground.
 - [Mods by CookieMilk](https://thunderstore.io/c/valheim/p/CookieMilk/)
   - Leash: Allows you to leash animals to a wood post. This is used only to help control OdinHorse.
-  - YouGotMail: When playing with friends on such a big world, you can now build a mailbox (BlackForest materials) to send items to one another. One day wait time on sent mail.
 - [NetworkTweaks by Searic](https://thunderstore.io/c/valheim/p/Searica/NetworkTweaks/)
   - Hopefully improved latency in multiplayer.
 - [HoneyPlus by OhhLoz](https://thunderstore.io/c/valheim/p/OhhLoz/HoneyPlus/)
@@ -183,7 +180,7 @@ These are the changes I have made to the game. I've added 70+ mods and configure
     - You can craft a Small Campfire, Sleeping Bag, Small Tent, and Big Tent. 
     - The Sleeping Bag and Tents require Campfire Resources. These recipes are changed from the original mod -- you will want to make sure you have plenty of Campfire Resources with you while traveling
   - Traveling Haldor (Gravebear)
-    - Traveling Haldor has a 30% chance to spawn every 3 days, during the daytime. He will remain for 20 minutes and vanish. He can be a little wild!
+    - Traveling Haldor has a 33% chance to spawn every 3 days, during the daytime. He will remain for 20 minutes and vanish. He can be a little wild!
   - OdinsFoodBarrels: Just cool barrels to store some items in.
 - [Venture Location Reset by VentureValheim](https://thunderstore.io/c/valheim/p/VentureValheim/Venture_Location_Reset/)
   - All locations are reset every 25 in-game days unless you have built something inside.
