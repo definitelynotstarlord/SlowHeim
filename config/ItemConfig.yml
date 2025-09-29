@@ -25,42 +25,14 @@
 #      - Display Name
 #      - InternalID
 
-# Examples:
 groups:
-  Huge Wood Gain:
-    - Wood
-    - Fine Wood
-    - Core Wood
-    - Ancient Bark
+  FloatingThings:
+    - ScaleHide
+    - SerpentScale
+    - TrophySerpent
+    - TrophyShark_TW
+    - TrophyBonemawSerpent
 
-# This will increase the default stack size for all items in this group by 50% (multiplied by 1.5).
-Huge Wood Stacks:
-  stack factor: 1.5
-
-# This will increase wood gained by 10%, until you reach the first world level.
-wood:
-  amount:
-    0: 1.1
-    1: default
-    
-# This will make dragon eggs teleportable.
-dragon egg:
-  teleportable: yes
-  
-# This will make silver ore lighter and increase the stack size.
-silver ore:
-  weight: 10
-  stack: 50
-  
-# This will make you keep your food in the inventory, if you happen to die.
-food:
-  loss: no
-  
-# This will stop your character from picking up Ooze automatically.
-ooze:
-  pickup: no
-  
-# This will make metal float in water and teleportable.
-metal:
+# Group Float
+FloatingThings:
   floating: yes
-  teleportable: yes
