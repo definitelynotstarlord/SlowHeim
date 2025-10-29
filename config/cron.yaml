@@ -1,0 +1,113 @@
+timezone: UTC
+# Jobs checked every 10 seconds.
+interval: 10
+jobs:
+
+# Starting at 6:00am UTC, broadcast messages every 15 minutes leading up to 7:00am UTC, then every minute leading up to the last 10.
+# On Tuesday and Thursday at 6:55am UTC save is performed.
+# On Sunday at 6:50am UTC world_clean is performed, followed by save at 6:55am
+# Server restart handled in GTX console via scheduled tasks set to run at 7:00am UTC.
+
+# Restart handler for Sunday
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 1 HOUR</color>
+    schedule: "0 6 * * 0"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 45 MINUTES</color>
+    schedule: "15 6 * * 0"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 30 MINUTES</color>
+    schedule: "30 6 * * 0"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 15 MINUTES - PLEASE LOG OUT</color>
+    schedule: "45 6 * * 0"
+  - commands: 
+    - broadcast center <color=red>WARNING - SERVER REBOOT IN 10 MINUTES - PLEASE LOG OUT</color>
+    - world_clean
+    schedule: "50 6 * * 0"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 9 MINUTES - PLEASE LOG OUT</color>
+    schedule: "51 6 * * 0"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 8 MINUTES - PLEASE LOG OUT</color>
+    schedule: "52 6 * * 0"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 7 MINUTES - PLEASE LOG OUT</color>
+    schedule: "53 6 * * 0"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 6 MINUTES - PLEASE LOG OUT</color>
+    schedule: "54 6 * * 0"
+  - commands: 
+    - broadcast center <color=red>WARNING - SERVER REBOOT IN 5 MINUTES - PLEASE LOG OUT</color>
+    - save
+    schedule: "55 6 * * 0"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 4 MINUTES - PLEASE LOG OUT</color>
+    schedule: "56 6 * * 0"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 3 MINUTES - PLEASE LOG OUT</color>
+    schedule: "57 6 * * 0"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 2 MINUTES - PLEASE LOG OUT</color>
+    schedule: "58 6 * * 0"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 1 MINUTE - PLEASE LOG OUT</color>
+    schedule: "59 6 * * 0"
+
+# Restart handler for Tuesday
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 1 HOUR</color>
+    schedule: "0 6 * * 2"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 45 MINUTES</color>
+    schedule: "15 6 * * 2"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 30 MINUTES</color>
+    schedule: "30 6 * * 2"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 15 MINUTES - PLEASE LOG OUT</color>
+    schedule: "45 6 * * 2"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 10 MINUTES - PLEASE LOG OUT</color>
+    schedule: "50 6 * * 2"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 9 MINUTES - PLEASE LOG OUT</color>
+    schedule: "51 6 * * 2"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 8 MINUTES - PLEASE LOG OUT</color>
+    schedule: "52 6 * * 2"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 7 MINUTES - PLEASE LOG OUT</color>
+    schedule: "53 6 * * 2"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 6 MINUTES - PLEASE LOG OUT</color>
+    schedule: "54 6 * * 2"
+  - commands: 
+    - broadcast center <color=red>WARNING - SERVER REBOOT IN 5 MINUTES - PLEASE LOG OUT</color>
+    - save
+    schedule: "55 6 * * 2"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 4 MINUTES - PLEASE LOG OUT</color>
+    schedule: "56 6 * * 2"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 3 MINUTES - PLEASE LOG OUT</color>
+    schedule: "57 6 * * 2"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 2 MINUTES - PLEASE LOG OUT</color>
+    schedule: "58 6 * * 2"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 1 MINUTE - PLEASE LOG OUT</color>
+    schedule: "59 6 * * 2"
+
+# Restart handler for Thursday
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 1 HOUR</color>
+    schedule: "0 6 * * 4"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 45 MINUTES</color>
+    schedule: "15 6 * * 4"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 30 MINUTES</color>
+    schedule: "30 6 * * 4"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 15 MINUTES - PLEASE LOG OUT</color>
+    schedule: "45 6 * * 4"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 10 MINUTES - PLEASE LOG OUT</color>
+    schedule: "50 6 * * 4"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 9 MINUTES - PLEASE LOG OUT</color>
+    schedule: "51 6 * * 4"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 8 MINUTES - PLEASE LOG OUT</color>
+    schedule: "52 6 * * 4"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 7 MINUTES - PLEASE LOG OUT</color>
+    schedule: "53 6 * * 4"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 6 MINUTES - PLEASE LOG OUT</color>
+    schedule: "54 6 * * 4"
+  - commands: 
+    - broadcast center <color=red>WARNING - SERVER REBOOT IN 5 MINUTES - PLEASE LOG OUT</color>
+    - save
+    schedule: "55 6 * * 4"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 4 MINUTES - PLEASE LOG OUT</color>
+    schedule: "56 6 * * 4"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 3 MINUTES - PLEASE LOG OUT</color>
+    schedule: "57 6 * * 4"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 2 MINUTES - PLEASE LOG OUT</color>
+    schedule: "58 6 * * 4"
+  - command: broadcast center <color=red>WARNING - SERVER REBOOT IN 1 MINUTE - PLEASE LOG OUT</color>
+    schedule: "59 6 * * 4"
+
+logJobs: true
+logZone: true
+logJoin: true
+logSkipped: true
+discordConnector: false

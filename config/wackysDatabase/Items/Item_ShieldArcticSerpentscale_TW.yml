@@ -176,7 +176,7 @@ Armor:
   armorPerLevel: 1
 FoodStats: 
 Moddifiers:
-  m_movementModifier: -0.25
+  m_movementModifier: -0.10
   m_EitrRegen: 0
   m_homeItemsStaminaModifier: 0
   m_heatResistanceModifier: 0
@@ -191,7 +191,7 @@ SE_Equip:
 SE_SET_Equip: 
 ShieldStats:
   m_blockPower: 151
-  m_blockPowerPerLevel: 24
+  m_blockPowerPerLevel: 19
   m_timedBlockBonus: 0
   m_deflectionForce: 140
   m_deflectionForcePerLevel: 5
